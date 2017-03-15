@@ -1,4 +1,5 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C68C88760EF974D3AD1782F8797B0BB4FC6D895F",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
@@ -6,6 +7,7 @@
     "DCD994A20FFF69E73D7DE28EB512BBF004934554" : 9223372036854775807,
     "E2306DAE0C98D148736A05084B6FAB44F03B4909" : 9223372036854775807,
     "C4127C9B9C8FDF608B532AD72407863CE2797629" : 9223372036854775807,
+    "C68C88760EF974D3AD1782F8797B0BB4FC6D895F" : 9223372036854775807,
     "9197B75B1BC29921D6E3B1CCDC2B258350009F3A" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FBF24B51-8384-4895-9BF4-939797DA304F",
@@ -13,6 +15,7 @@
     "DCD994A20FFF69E73D7DE28EB512BBF004934554" : "PerfectDemoProject\/Packages\/COpenSSL-2.0.4\/",
     "E2306DAE0C98D148736A05084B6FAB44F03B4909" : "PerfectDemoProject\/Packages\/PerfectLib-2.0.9\/",
     "C4127C9B9C8FDF608B532AD72407863CE2797629" : "PerfectDemoProject\/Packages\/PerfectHTTPServer-2.1.14\/",
+    "C68C88760EF974D3AD1782F8797B0BB4FC6D895F" : "PerfectDemoProject\/",
     "9197B75B1BC29921D6E3B1CCDC2B258350009F3A" : "PerfectDemoProject\/Packages\/PerfectHTTP-2.1.8\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "PerfectDemoProject",
@@ -28,6 +31,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PerfectlySoft\/Perfect-HTTPServer.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C4127C9B9C8FDF608B532AD72407863CE2797629"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Luis-X\/PerfectDemoProject.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C68C88760EF974D3AD1782F8797B0BB4FC6D895F"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PerfectlySoft\/Perfect-COpenSSL.git",

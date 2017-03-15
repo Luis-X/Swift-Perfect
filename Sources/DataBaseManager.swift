@@ -3,11 +3,11 @@ import MySQL
 //MARK: 数据库信息
 let mysql_host = "127.0.0.1"
 let mysql_user = "root"
-let mysql_password = "Perfect::123456"
-let mysql_database = "PerfectDB"
+let mysql_password = "Fengxu::1226"
+let mysql_database = "TianProject"
 
 //MARK: 表信息
-let table_level = "level"                           //等级
+let table_level = "account_level"                                            //等级
 
 
 open class DataBaseManager {
@@ -130,7 +130,7 @@ open class DataBaseManager {
     }
     
     
-    //获取数据
+    //获取account_level表中所有数据
     func mysqlGetHomeDataResult() -> [Dictionary<String, String>]? {
         
         let result = selectAllDatabaseSQL(tableName: table_level)
