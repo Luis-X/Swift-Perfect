@@ -1,0 +1,552 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HTTPRequestHeader"
+- "=="
+- "HTTPResponseHeader"
+- "=="
+provides-nominal:
+- "11PerfectHTTP17HTTPRequestHeaderO"
+- "11PerfectHTTP17HTTPRequestHeaderO4NameO"
+- "11PerfectHTTP18HTTPResponseHeaderO"
+- "11PerfectHTTP18HTTPResponseHeaderO4NameO"
+provides-member:
+- ["11PerfectHTTP17HTTPRequestHeaderO", ""]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", ""]
+- ["11PerfectHTTP18HTTPResponseHeaderO", ""]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Bool"
+- "HTTPRequestHeader"
+- "HTTPResponseHeader"
+- "Hashable"
+- "Int"
+- "String"
+- "StringLiteralType"
+- !private "~="
+depends-member:
+- !private ["s23BidirectionalCollectionP", "hashValue"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "lowercased"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lowercased"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s10CollectionP", "hashValue"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "lowercased"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "hashValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "lowercased"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "lowercased"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "HTTPRequestHeader"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "accept"]
+- ["s9EquatableP", "acceptCharset"]
+- ["s9EquatableP", "acceptDatetime"]
+- ["s9EquatableP", "acceptEncoding"]
+- ["s9EquatableP", "acceptLanguage"]
+- ["s9EquatableP", "accessControlRequestHeaders"]
+- ["s9EquatableP", "accessControlRequestMethod"]
+- ["s9EquatableP", "authorization"]
+- ["s9EquatableP", "cacheControl"]
+- ["s9EquatableP", "connection"]
+- ["s9EquatableP", "contentLength"]
+- ["s9EquatableP", "contentMD5"]
+- ["s9EquatableP", "contentType"]
+- ["s9EquatableP", "cookie"]
+- ["s9EquatableP", "custom"]
+- ["s9EquatableP", "date"]
+- ["s9EquatableP", "dnt"]
+- ["s9EquatableP", "expect"]
+- ["s9EquatableP", "forwarded"]
+- ["s9EquatableP", "from"]
+- ["s9EquatableP", "frontEndHttps"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "host"]
+- ["s9EquatableP", "ifMatch"]
+- ["s9EquatableP", "ifModifiedSince"]
+- ["s9EquatableP", "ifNoneMatch"]
+- ["s9EquatableP", "ifRange"]
+- ["s9EquatableP", "ifUnmodifiedSince"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lookupTable"]
+- !private ["s9EquatableP", "lowercased"]
+- ["s9EquatableP", "maxForwards"]
+- ["s9EquatableP", "origin"]
+- ["s9EquatableP", "pragma"]
+- ["s9EquatableP", "proxyAuthorization"]
+- ["s9EquatableP", "proxyConnection"]
+- ["s9EquatableP", "range"]
+- ["s9EquatableP", "referer"]
+- !private ["s9EquatableP", "standardName"]
+- ["s9EquatableP", "te"]
+- ["s9EquatableP", "upgrade"]
+- ["s9EquatableP", "userAgent"]
+- ["s9EquatableP", "via"]
+- ["s9EquatableP", "warning"]
+- ["s9EquatableP", "xATTDeviceId"]
+- ["s9EquatableP", "xAuthorization"]
+- ["s9EquatableP", "xCsrfToken"]
+- ["s9EquatableP", "xForwardedFor"]
+- ["s9EquatableP", "xForwardedHost"]
+- ["s9EquatableP", "xForwardedProto"]
+- ["s9EquatableP", "xHttpMethodOverride"]
+- ["s9EquatableP", "xRequestedBy"]
+- ["s9EquatableP", "xRequestedWith"]
+- ["s9EquatableP", "xUIDH"]
+- ["s9EquatableP", "xWapProfile"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hashValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", "hashValue"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hashValue"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- ["11PerfectHTTP17HTTPRequestHeaderO", "HTTPRequestHeader"]
+- ["11PerfectHTTP17HTTPRequestHeaderO", "Hashable"]
+- ["11PerfectHTTP17HTTPRequestHeaderO", "Int"]
+- ["11PerfectHTTP17HTTPRequestHeaderO", "Name"]
+- ["11PerfectHTTP17HTTPRequestHeaderO", "String"]
+- ["11PerfectHTTP18HTTPResponseHeaderO", "HTTPResponseHeader"]
+- ["11PerfectHTTP18HTTPResponseHeaderO", "Int"]
+- ["11PerfectHTTP18HTTPResponseHeaderO", "Name"]
+- ["11PerfectHTTP18HTTPResponseHeaderO", "String"]
+- !private ["s8HashableP", "HTTPRequestHeader"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "accept"]
+- ["s8HashableP", "acceptCharset"]
+- ["s8HashableP", "acceptDatetime"]
+- ["s8HashableP", "acceptEncoding"]
+- ["s8HashableP", "acceptLanguage"]
+- ["s8HashableP", "accessControlRequestHeaders"]
+- ["s8HashableP", "accessControlRequestMethod"]
+- ["s8HashableP", "authorization"]
+- ["s8HashableP", "cacheControl"]
+- ["s8HashableP", "connection"]
+- ["s8HashableP", "contentLength"]
+- ["s8HashableP", "contentMD5"]
+- ["s8HashableP", "contentType"]
+- ["s8HashableP", "cookie"]
+- ["s8HashableP", "custom"]
+- ["s8HashableP", "date"]
+- ["s8HashableP", "dnt"]
+- ["s8HashableP", "expect"]
+- ["s8HashableP", "forwarded"]
+- ["s8HashableP", "from"]
+- ["s8HashableP", "frontEndHttps"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "host"]
+- ["s8HashableP", "ifMatch"]
+- ["s8HashableP", "ifModifiedSince"]
+- ["s8HashableP", "ifNoneMatch"]
+- ["s8HashableP", "ifRange"]
+- ["s8HashableP", "ifUnmodifiedSince"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "lookupTable"]
+- !private ["s8HashableP", "lowercased"]
+- ["s8HashableP", "maxForwards"]
+- ["s8HashableP", "origin"]
+- ["s8HashableP", "pragma"]
+- ["s8HashableP", "proxyAuthorization"]
+- ["s8HashableP", "proxyConnection"]
+- ["s8HashableP", "range"]
+- ["s8HashableP", "referer"]
+- !private ["s8HashableP", "standardName"]
+- ["s8HashableP", "te"]
+- ["s8HashableP", "upgrade"]
+- ["s8HashableP", "userAgent"]
+- ["s8HashableP", "via"]
+- ["s8HashableP", "warning"]
+- ["s8HashableP", "xATTDeviceId"]
+- ["s8HashableP", "xAuthorization"]
+- ["s8HashableP", "xCsrfToken"]
+- ["s8HashableP", "xForwardedFor"]
+- ["s8HashableP", "xForwardedHost"]
+- ["s8HashableP", "xForwardedProto"]
+- ["s8HashableP", "xHttpMethodOverride"]
+- ["s8HashableP", "xRequestedBy"]
+- ["s8HashableP", "xRequestedWith"]
+- ["s8HashableP", "xUIDH"]
+- ["s8HashableP", "xWapProfile"]
+- ["s8HashableP", ""]
+- !private ["10PerfectLib15JSONConvertibleP", "_getBuiltinLogicValue"]
+- !private ["10PerfectLib15JSONConvertibleP", "hashValue"]
+- ["10PerfectLib15JSONConvertibleP", "init"]
+- !private ["10PerfectLib15JSONConvertibleP", "lowercased"]
+- !private ["10PerfectLib15JSONConvertibleP", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "lowercased"]
+- !private ["So8NSCodingP", "hashValue"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lowercased"]
+- !private ["So9NSCopyingP", "hashValue"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "lowercased"]
+- !private ["So21NSItemProviderReadingP", "hashValue"]
+- ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "lowercased"]
+- !private ["So21NSItemProviderWritingP", "hashValue"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "lowercased"]
+- !private ["So16NSMutableCopyingP", "hashValue"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "lowercased"]
+- !private ["So8NSObjectC", "hashValue"]
+- !private ["So8NSObjectC", "lowercased"]
+- !private ["So16NSObjectProtocolP", "hashValue"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "lowercased"]
+- !private ["So14NSSecureCodingP", "hashValue"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "lowercased"]
+- !private ["So8NSStringC", "hashValue"]
+- ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "lowercased"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "HTTPRequestHeader"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "Int"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "String"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "accept"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "acceptCharset"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "acceptDatetime"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "acceptEncoding"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "acceptLanguage"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "accessControlRequestHeaders"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "accessControlRequestMethod"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "authorization"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "cacheControl"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "connection"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "contentLength"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "contentMD5"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "contentType"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "cookie"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "custom"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "date"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "deinit"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "dnt"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "expect"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "forwarded"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "from"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "fromStandard"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "frontEndHttps"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "hashValue"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "host"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "ifMatch"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "ifModifiedSince"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "ifNoneMatch"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "ifRange"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "ifUnmodifiedSince"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "lookupTable"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "maxForwards"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "origin"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "pragma"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "proxyAuthorization"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "proxyConnection"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "range"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "referer"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "standardName"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "te"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "upgrade"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "userAgent"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "via"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "warning"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "xATTDeviceId"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "xAuthorization"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "xCsrfToken"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "xForwardedFor"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "xForwardedHost"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "xForwardedProto"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "xHttpMethodOverride"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "xRequestedBy"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "xRequestedWith"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "xUIDH"]
+- ["11PerfectHTTP17HTTPRequestHeaderO4NameO", "xWapProfile"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "HTTPResponseHeader"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "Int"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "String"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "acceptPatch"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "acceptRanges"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "accessControlAllowCredentials"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "accessControlAllowHeaders"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "accessControlAllowMethods"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "accessControlAllowOrigin"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "accessControlMaxAge"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "age"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "allow"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "altSvc"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "cacheControl"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "connection"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "contentDisposition"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "contentEncoding"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "contentLanguage"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "contentLength"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "contentLocation"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "contentMD5"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "contentRange"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "contentSecurityPolicy"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "contentType"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "custom"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "date"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "eTag"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "expires"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "fromStandard"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "hashValue"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "lastModified"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "link"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "location"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "p3p"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "pragma"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "proxyAuthenticate"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "publicKeyPins"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "refresh"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "retryAfter"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "server"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "setCookie"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "standardName"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "status"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "strictTransportSecurity"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "trailer"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "transferEncoding"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "tsv"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "upgrade"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "upgradeInsecureRequests"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "vary"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "via"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "warning"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "wwwAuthenticate"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "xContentDuration"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "xContentSecurityPolicy"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "xContentTypeOptions"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "xCorrelationID"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "xFrameOptions"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "xPoweredBy"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "xRequestID"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "xUACompatible"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "xWebKitCSP"]
+- ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "xxsSProtection"]
+- !private ["s26RangeReplaceableCollectionP", "hashValue"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "lowercased"]
+- !private ["s8SequenceP", "hashValue"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "lowercased"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["SS", "hashValue"]
+- ["SS", "init"]
+- !private ["SS", "lowercased"]
+- !private ["s14StringProtocolP", "hashValue"]
+- ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "lowercased"]
+- !private ["s16TextOutputStreamP", "hashValue"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- !private ["s20TextOutputStreamableP", "hashValue"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- !private ["s23_BidirectionalIndexableP", "hashValue"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "lowercased"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hashValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hashValue"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "hashValue"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "lowercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hashValue"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
+- !private ["s33_ExpressibleByStringInterpolationP", "hashValue"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "hashValue"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["s10_IndexableP", "hashValue"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "lowercased"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "hashValue"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "lowercased"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hashValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "hashValue"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "lowercased"]
+- !private ["s16_SwiftStringViewP", "hashValue"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "lowercased"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "11PerfectHTTP17HTTPRequestHeaderO"
+- "11PerfectHTTP18HTTPResponseHeaderO"
+- "s8HashableP"
+- "10PerfectLib15JSONConvertibleP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "11PerfectHTTP17HTTPRequestHeaderO4NameO"
+- "11PerfectHTTP18HTTPResponseHeaderO4NameO"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.swiftmodule"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectThread.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectCrypto.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectNet.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../asn1.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../tls1.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dtls1.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl2.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem2.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../e_os2.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl23.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl3.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pkcs7.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../sha.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dsa.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdsa.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rsa.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../obj_mac.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../hmac.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ec.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rand.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pqueue.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslconf.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dh.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdh.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../lhash.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../stack.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../safestack.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../kssl.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/openssl.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bn.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bio.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../crypto.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../comp.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../srtp.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../evp.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ossl_typ.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../buffer.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../err.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../symhacks.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../cms.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../objects.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslv.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509_vfy.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap"
+- "/Applications/Xcode9.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode9.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode9.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode9.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode9.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "ed2746bd3dc06145f502bdcbdcf546c7"

@@ -1,4 +1,4 @@
-import MySQL
+import PerfectMySQL
 
 //MARK: 数据库信息
 let mysql_host = "127.0.0.1"

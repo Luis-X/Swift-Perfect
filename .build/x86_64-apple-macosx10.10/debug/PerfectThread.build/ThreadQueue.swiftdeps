@@ -1,0 +1,460 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ThreadQueue"
+- "ThreadQueueInternal"
+provides-nominal:
+- "13PerfectThread0B5QueueP"
+- "13PerfectThread0B13QueueInternalP"
+- "13PerfectThread9ThreadingV9QueueTypeO"
+provides-member:
+- ["13PerfectThread0B5QueueP", ""]
+- ["13PerfectThread0B13QueueInternalP", ""]
+- ["13PerfectThread9ThreadingV", ""]
+- ["13PerfectThread9ThreadingV9QueueTypeO", ""]
+- ["13PerfectThread9ThreadingV", "QueueType"]
+- ["13PerfectThread9ThreadingV", "getDefaultQueue"]
+- ["13PerfectThread9ThreadingV", "getQueue"]
+- ["13PerfectThread9ThreadingV", "getQueue"]
+- ["13PerfectThread9ThreadingV", "destroyQueue"]
+- ["13PerfectThread9ThreadingV", "dispatch"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "..<"
+- "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "DispatchQueue"
+- "Int"
+- !private "Int32"
+- !private "OpaquePointer"
+- !private "PTHREAD_CREATE_DETACHED"
+- "String"
+- "StringLiteralType"
+- "ThreadQueue"
+- "ThreadQueueInternal"
+- "Threading"
+- !private "Unmanaged"
+- !private "UnsafeMutableRawPointer"
+- !private "_SC_NPROCESSORS_ONLN"
+- !private "anonymousQueueName"
+- !private "autoreleasepool"
+- !private "max"
+- !private "pthread_attr_init"
+- !private "pthread_attr_setdetachstate"
+- !private "pthread_attr_t"
+- !private "pthread_create"
+- !private "pthread_t"
+- !private "sysconf"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "removeFirst"]
+- !private ["So13DispatchQueueC0A0E10AttributesV", "concurrent"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "removeFirst"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "removeFirst"]
+- !private ["s7CVarArgP", "removeValue"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "removeFirst"]
+- !private ["s10CollectionP", "removeValue"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFirst"]
+- !private ["s28CustomDebugStringConvertibleP", "removeValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeFirst"]
+- !private ["s17CustomReflectableP", "removeValue"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "removeFirst"]
+- !private ["s23CustomStringConvertibleP", "removeValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "hashValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "removeFirst"]
+- !private ["s9DecodableP", "removeValue"]
+- !private ["s9DecodableP", "subscript"]
+- ["s10DictionaryV", "init"]
+- !private ["s10DictionaryV", "removeValue"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "removeFirst"]
+- !private ["s9EncodableP", "removeValue"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "async"]
+- ["s9EquatableP", "concurrent"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "serial"]
+- ["s9EquatableP", ""]
+- !private ["13PerfectThread9ThreadingV5EventC", "broadcast"]
+- !private ["13PerfectThread9ThreadingV5EventC", "init"]
+- !private ["13PerfectThread9ThreadingV5EventC", "lock"]
+- !private ["13PerfectThread9ThreadingV5EventC", "signal"]
+- !private ["13PerfectThread9ThreadingV5EventC", "unlock"]
+- !private ["13PerfectThread9ThreadingV5EventC", "wait"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "concurrent"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeFirst"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "async"]
+- ["s8HashableP", "concurrent"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "serial"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s5Int32V", "init"]
+- !private ["13PerfectThread9ThreadingV4LockC", "broadcast"]
+- ["13PerfectThread9ThreadingV4LockC", "init"]
+- !private ["13PerfectThread9ThreadingV4LockC", "lock"]
+- !private ["13PerfectThread9ThreadingV4LockC", "signal"]
+- !private ["13PerfectThread9ThreadingV4LockC", "unlock"]
+- !private ["13PerfectThread9ThreadingV4LockC", "wait"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "removeFirst"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So16NSObjectProtocolP", "async"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["s7NumericP", "init"]
+- !private ["So9OS_objectC", "async"]
+- !private ["s9OptionSetP", "concurrent"]
+- ["13PerfectThread9ThreadingV9QueueTypeO", "__derived_enum_equals"]
+- ["13PerfectThread9ThreadingV9QueueTypeO", "concurrent"]
+- ["13PerfectThread9ThreadingV9QueueTypeO", "deinit"]
+- ["13PerfectThread9ThreadingV9QueueTypeO", "hashValue"]
+- ["13PerfectThread9ThreadingV9QueueTypeO", "serial"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "removeFirst"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "removeFirst"]
+- !private ["s16RawRepresentableP", "concurrent"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "removeFirst"]
+- !private ["s8SequenceP", "removeValue"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s10SetAlgebraP", "concurrent"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "hashValue"]
+- !private ["s10StrideableP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["13PerfectThread0B5QueueP", "DispatchQueue"]
+- ["13PerfectThread0B5QueueP", "String"]
+- ["13PerfectThread0B5QueueP", "Threading"]
+- !private ["13PerfectThread0B5QueueP", "autoreleasepool"]
+- ["13PerfectThread0B5QueueP", "dispatch"]
+- ["13PerfectThread0B5QueueP", "init"]
+- !private ["13PerfectThread0B5QueueP", "lock"]
+- !private ["13PerfectThread0B5QueueP", "max"]
+- ["13PerfectThread0B5QueueP", "name"]
+- !private ["13PerfectThread0B5QueueP", "q"]
+- !private ["13PerfectThread0B5QueueP", "queue"]
+- !private ["13PerfectThread0B5QueueP", "running"]
+- !private ["13PerfectThread0B5QueueP", "startLoop"]
+- ["13PerfectThread0B5QueueP", "type"]
+- !private ["13PerfectThread0B5QueueP", ""]
+- ["13PerfectThread0B13QueueInternalP", "Bool"]
+- ["13PerfectThread0B13QueueInternalP", "Threading"]
+- !private ["13PerfectThread0B13QueueInternalP", "autoreleasepool"]
+- !private ["13PerfectThread0B13QueueInternalP", "dispatch"]
+- !private ["13PerfectThread0B13QueueInternalP", "init"]
+- ["13PerfectThread0B13QueueInternalP", "lock"]
+- !private ["13PerfectThread0B13QueueInternalP", "max"]
+- !private ["13PerfectThread0B13QueueInternalP", "name"]
+- !private ["13PerfectThread0B13QueueInternalP", "q"]
+- ["13PerfectThread0B13QueueInternalP", "running"]
+- !private ["13PerfectThread0B13QueueInternalP", "startLoop"]
+- !private ["13PerfectThread0B13QueueInternalP", "type"]
+- !private ["13PerfectThread0B13QueueInternalP", ""]
+- !private ["13PerfectThread9ThreadingV", "ConcurrentQueue"]
+- ["13PerfectThread9ThreadingV", "DefaultQueue"]
+- !private ["13PerfectThread9ThreadingV", "DispatchQueue"]
+- ["13PerfectThread9ThreadingV", "Event"]
+- ["13PerfectThread9ThreadingV", "Int"]
+- !private ["13PerfectThread9ThreadingV", "Int32"]
+- ["13PerfectThread9ThreadingV", "Lock"]
+- !private ["13PerfectThread9ThreadingV", "OpaquePointer"]
+- !private ["13PerfectThread9ThreadingV", "PTHREAD_CREATE_DETACHED"]
+- ["13PerfectThread9ThreadingV", "QueueType"]
+- !private ["13PerfectThread9ThreadingV", "SerialQueue"]
+- ["13PerfectThread9ThreadingV", "String"]
+- ["13PerfectThread9ThreadingV", "ThreadClosure"]
+- ["13PerfectThread9ThreadingV", "ThreadQueue"]
+- !private ["13PerfectThread9ThreadingV", "ThreadQueueInternal"]
+- ["13PerfectThread9ThreadingV", "Threading"]
+- !private ["13PerfectThread9ThreadingV", "Unmanaged"]
+- !private ["13PerfectThread9ThreadingV", "UnsafeMutableRawPointer"]
+- !private ["13PerfectThread9ThreadingV", "_SC_NPROCESSORS_ONLN"]
+- !private ["13PerfectThread9ThreadingV", "anonymousQueueName"]
+- !private ["13PerfectThread9ThreadingV", "autoreleasepool"]
+- !private ["13PerfectThread9ThreadingV", "concurrentQueues"]
+- !private ["13PerfectThread9ThreadingV", "defaultQueue"]
+- ["13PerfectThread9ThreadingV", "destroyQueue"]
+- ["13PerfectThread9ThreadingV", "dispatch"]
+- !private ["13PerfectThread9ThreadingV", "dispatchOnNewThread"]
+- ["13PerfectThread9ThreadingV", "getDefaultQueue"]
+- ["13PerfectThread9ThreadingV", "getQueue"]
+- !private ["13PerfectThread9ThreadingV", "max"]
+- !private ["13PerfectThread9ThreadingV", "processorCount"]
+- !private ["13PerfectThread9ThreadingV", "pthread_attr_init"]
+- !private ["13PerfectThread9ThreadingV", "pthread_attr_setdetachstate"]
+- !private ["13PerfectThread9ThreadingV", "pthread_attr_t"]
+- !private ["13PerfectThread9ThreadingV", "pthread_create"]
+- !private ["13PerfectThread9ThreadingV", "pthread_t"]
+- !private ["13PerfectThread9ThreadingV", "queuesLock"]
+- !private ["13PerfectThread9ThreadingV", "serialQueues"]
+- !private ["13PerfectThread9ThreadingV", "sysconf"]
+- !private ["s9UnmanagedV", "fromOpaque"]
+- !private ["s9UnmanagedV", "passRetained"]
+- !private ["s9UnmanagedV", "takeRetainedValue"]
+- !private ["s9UnmanagedV", "toOpaque"]
+- !private ["Sp", "init"]
+- !private ["Sv", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "removeFirst"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "removeFirst"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "removeFirst"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s10_IndexableP", "count"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "removeFirst"]
+- !private ["s10_IndexableP", "removeValue"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "append"]
+- !private ["s14_IndexableBaseP", "count"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "removeFirst"]
+- !private ["s14_IndexableBaseP", "removeValue"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s17_MutableIndexableP", "append"]
+- !private ["s17_MutableIndexableP", "count"]
+- !private ["s17_MutableIndexableP", "removeFirst"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeFirst"]
+- !private ["s21_ObjectiveCBridgeableP", "removeValue"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s8_PointerP", "init"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s22_RandomAccessIndexableP", "removeFirst"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "removeFirst"]
+- !private ["s11_StrideableP", "hashValue"]
+- !private ["s11_StrideableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["SC22_opaque_pthread_attr_tV", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "So13DispatchQueueC0A0E10AttributesV"
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s10DictionaryV"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "13PerfectThread9ThreadingV5EventC"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s5Int32V"
+- "13PerfectThread9ThreadingV4LockC"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s7NumericP"
+- !private "So9OS_objectC"
+- !private "s9OptionSetP"
+- "13PerfectThread9ThreadingV9QueueTypeO"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "13PerfectThread0B5QueueP"
+- "13PerfectThread0B13QueueInternalP"
+- "13PerfectThread9ThreadingV"
+- !private "s9UnmanagedV"
+- !private "Sp"
+- !private "Sv"
+- !private "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s16_SwiftStringViewP"
+- !private "SC22_opaque_pthread_attr_tV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode9.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode9.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode9.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode9.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "026187972201e4512a0e2f79bc4f9e36"

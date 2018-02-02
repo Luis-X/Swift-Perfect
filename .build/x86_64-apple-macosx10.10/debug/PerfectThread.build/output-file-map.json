@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/master.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Promise.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Promise.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Promise.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Promise~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Promise.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/ThreadQueue.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/ThreadQueue.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/ThreadQueue.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/ThreadQueue~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/ThreadQueue.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Threading.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Threading.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Threading.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Threading~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Threading.swiftdeps"
+  }
+}

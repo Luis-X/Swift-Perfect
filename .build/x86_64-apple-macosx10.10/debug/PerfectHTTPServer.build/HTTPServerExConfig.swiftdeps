@@ -1,0 +1,830 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "filtersFrom"
+- "filtersFrom"
+- "HTTPHandler"
+- "HTTPFilter"
+provides-nominal:
+- "17PerfectHTTPServer11HTTPHandlerV"
+- "17PerfectHTTPServer10HTTPFilterV"
+provides-member:
+- ["11PerfectHTTP6RoutesV", ""]
+- ["10PerfectNet17OpenSSLVerifyModeV", ""]
+- ["17PerfectHTTPServer16TLSConfigurationV", ""]
+- ["17PerfectHTTPServer11HTTPHandlerV", ""]
+- ["17PerfectHTTPServer10HTTPFilterV", ""]
+- ["11PerfectHTTP6RoutesV", "init"]
+- ["10PerfectNet17OpenSSLVerifyModeV", "init"]
+- ["17PerfectHTTPServer16TLSConfigurationV", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "+="
+- !private "=="
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- !private "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "ExtendedGraphemeClusterType"
+- !private "File"
+- "HTTPFilter"
+- "HTTPFilterPriority"
+- "HTTPHandler"
+- !private "HTTPMethod"
+- "HTTPRequest"
+- "HTTPRequestFilter"
+- "HTTPRequestFilterResult"
+- "HTTPResponse"
+- "HTTPResponseFilter"
+- "HTTPResponseFilterResult"
+- !private "HTTPServer"
+- "OpenSSLVerifyMode"
+- !private "PerfectError"
+- "RTLD_NOW"
+- "RequestHandler"
+- !private "ReturnsRequestFilterGivenData"
+- !private "ReturnsRequestHandlerGivenData"
+- !private "ReturnsResponseFilterGivenData"
+- "Route"
+- "Routes"
+- !private "StaticFileHandler"
+- "String"
+- "StringLiteralType"
+- "TLSConfiguration"
+- !private "UInt"
+- !private "UInt64"
+- !private "UnicodeScalarType"
+- !private "UnsafeMutablePointer"
+- !private "UnsafeMutableRawPointer"
+- "dlopen"
+- !private "dlsym"
+- !private "exeHandle"
+- !private "fatalError"
+- "filtersFrom"
+- !private "findFunc"
+- !private "findRequestFilter"
+- !private "findResponseFilter"
+- !private "kv"
+- !private "swift_func_object"
+- !private "swift_func_wrapper"
+- !private "symbolPrefixes"
+- !private "templateWithData"
+- !private "uintptr_t"
+- !private "~="
+depends-member:
+- !private ["17PerfectHTTPServer0B0C11ALPNSupportO", "deinit"]
+- !private ["17PerfectHTTPServer0B0C11ALPNSupportO", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "flatMap"]
+- !private ["Sa", "init"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "map"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "flatMap"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "joined"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "split"]
+- !private ["s23BidirectionalCollectionP", "uppercased"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "deallocate"]
+- !private ["s7CVarArgP", "deinitialize"]
+- !private ["s7CVarArgP", "flatMap"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initialize"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "split"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "uppercased"]
+- !private ["s9CharacterV", "count"]
+- !private ["s9CharacterV", "init"]
+- !private ["SS13CharacterViewV", "count"]
+- !private ["s9SubstringV13CharacterViewV", "count"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "flatMap"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "joined"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "split"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10CollectionP", "uppercased"]
+- !private ["s10ComparableP", "allocate"]
+- !private ["s10ComparableP", "assumingMemoryBound"]
+- !private ["s10ComparableP", "count"]
+- !private ["s10ComparableP", "deallocate"]
+- !private ["s10ComparableP", "deinitialize"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "initialize"]
+- !private ["s10ComparableP", "pointee"]
+- !private ["s10ComparableP", "split"]
+- !private ["s10ComparableP", "uppercased"]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "assumingMemoryBound"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "deallocate"]
+- !private ["s28CustomDebugStringConvertibleP", "deinitialize"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "high"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initialize"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s28CustomDebugStringConvertibleP", "split"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "uppercased"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s29CustomPlaygroundQuickLookableP", "assumingMemoryBound"]
+- !private ["s29CustomPlaygroundQuickLookableP", "count"]
+- !private ["s29CustomPlaygroundQuickLookableP", "deallocate"]
+- !private ["s29CustomPlaygroundQuickLookableP", "deinitialize"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "initialize"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s29CustomPlaygroundQuickLookableP", "split"]
+- !private ["s29CustomPlaygroundQuickLookableP", "uppercased"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "assumingMemoryBound"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "deallocate"]
+- !private ["s17CustomReflectableP", "deinitialize"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "high"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "initialize"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "pointee"]
+- ["s17CustomReflectableP", "some"]
+- !private ["s17CustomReflectableP", "split"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "uppercased"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "flatMap"]
+- !private ["s23CustomStringConvertibleP", "from"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "movedPermanently"]
+- ["s23CustomStringConvertibleP", "notFound"]
+- !private ["s23CustomStringConvertibleP", "split"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "uppercased"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "assumingMemoryBound"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "flatMap"]
+- !private ["s9DecodableP", "high"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "joined"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "movedPermanently"]
+- ["s9DecodableP", "notFound"]
+- ["s9DecodableP", "some"]
+- !private ["s9DecodableP", "split"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "uppercased"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "assumingMemoryBound"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "flatMap"]
+- !private ["s9EncodableP", "high"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "joined"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "movedPermanently"]
+- ["s9EncodableP", "notFound"]
+- ["s9EncodableP", "some"]
+- !private ["s9EncodableP", "split"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "uppercased"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "allocate"]
+- !private ["s9EquatableP", "assumingMemoryBound"]
+- !private ["s9EquatableP", "continue"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "deallocate"]
+- !private ["s9EquatableP", "deinitialize"]
+- !private ["s9EquatableP", "from"]
+- ["s9EquatableP", "high"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "initialize"]
+- ["s9EquatableP", "low"]
+- ["s9EquatableP", "medium"]
+- !private ["s9EquatableP", "pointee"]
+- !private ["s9EquatableP", "split"]
+- !private ["s9EquatableP", "sslVerifyClientOnce"]
+- !private ["s9EquatableP", "sslVerifyFailIfNoPeerCert"]
+- !private ["s9EquatableP", "sslVerifyNone"]
+- !private ["s9EquatableP", "sslVerifyPeer"]
+- !private ["s9EquatableP", "sslVerifyPeerClientOnce"]
+- !private ["s9EquatableP", "sslVerifyPeerWithFailIfNoPeerCert"]
+- !private ["s9EquatableP", "sslVerifyPeerWithFailIfNoPeerCertClientOnce"]
+- !private ["s9EquatableP", "uppercased"]
+- !private ["s5ErrorP", "apiError"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "flatMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "sslVerifyClientOnce"]
+- !private ["s25ExpressibleByArrayLiteralP", "sslVerifyFailIfNoPeerCert"]
+- !private ["s25ExpressibleByArrayLiteralP", "sslVerifyNone"]
+- !private ["s25ExpressibleByArrayLiteralP", "sslVerifyPeer"]
+- !private ["s25ExpressibleByArrayLiteralP", "sslVerifyPeerClientOnce"]
+- !private ["s25ExpressibleByArrayLiteralP", "sslVerifyPeerWithFailIfNoPeerCert"]
+- !private ["s25ExpressibleByArrayLiteralP", "sslVerifyPeerWithFailIfNoPeerCertClientOnce"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "split"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "uppercased"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "assumingMemoryBound"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["s23ExpressibleByNilLiteralP", "high"]
+- ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["s26ExpressibleByStringLiteralP", "count"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "split"]
+- !private ["s26ExpressibleByStringLiteralP", "uppercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "split"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "uppercased"]
+- !private ["10PerfectLib4FileC", "init"]
+- !private ["10PerfectLib4FileC", "readString"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["17PerfectHTTPServer10HTTPFilterV", "File"]
+- ["17PerfectHTTPServer10HTTPFilterV", "HTTPRequest"]
+- ["17PerfectHTTPServer10HTTPFilterV", "HTTPRequestFilter"]
+- ["17PerfectHTTPServer10HTTPFilterV", "HTTPRequestFilterResult"]
+- ["17PerfectHTTPServer10HTTPFilterV", "HTTPResponse"]
+- ["17PerfectHTTPServer10HTTPFilterV", "HTTPResponseFilter"]
+- ["17PerfectHTTPServer10HTTPFilterV", "HTTPResponseFilterResult"]
+- ["17PerfectHTTPServer10HTTPFilterV", "String"]
+- ["17PerfectHTTPServer10HTTPFilterV", "custom404"]
+- ["17PerfectHTTPServer10HTTPFilterV", "customReqFilter"]
+- !private ["17PerfectHTTPServer10HTTPFilterV", "fatalError"]
+- ["17PerfectHTTPServer10HTTPFilterV", "init"]
+- ["11PerfectHTTP18HTTPFilterPriorityO", "high"]
+- ["11PerfectHTTP18HTTPFilterPriorityO", "low"]
+- ["11PerfectHTTP18HTTPFilterPriorityO", "medium"]
+- !private ["17PerfectHTTPServer11HTTPHandlerV", "Bool"]
+- ["17PerfectHTTPServer11HTTPHandlerV", "RequestHandler"]
+- !private ["17PerfectHTTPServer11HTTPHandlerV", "StaticFileHandler"]
+- ["17PerfectHTTPServer11HTTPHandlerV", "String"]
+- !private ["17PerfectHTTPServer11HTTPHandlerV", "fatalError"]
+- ["17PerfectHTTPServer11HTTPHandlerV", "init"]
+- ["17PerfectHTTPServer11HTTPHandlerV", "redirect"]
+- ["17PerfectHTTPServer11HTTPHandlerV", "staticFiles"]
+- !private ["11PerfectHTTP10HTTPMethodO", "from"]
+- !private ["11PerfectHTTP11HTTPRequestP", "uri"]
+- !private ["11PerfectHTTP17HTTPRequestFilterP", "filter"]
+- !private ["11PerfectHTTP17HTTPRequestFilterP", "init"]
+- !private ["11PerfectHTTP17HTTPRequestFilterP", ""]
+- !private ["11PerfectHTTP23HTTPRequestFilterResultO", "continue"]
+- !private ["11PerfectHTTP12HTTPResponseP", "bodyBytes"]
+- !private ["11PerfectHTTP12HTTPResponseP", "completed"]
+- !private ["11PerfectHTTP12HTTPResponseP", "setBody"]
+- !private ["11PerfectHTTP12HTTPResponseP", "setHeader"]
+- !private ["11PerfectHTTP12HTTPResponseP", "status"]
+- !private ["11PerfectHTTP18HTTPResponseFilterP", "File"]
+- !private ["11PerfectHTTP18HTTPResponseFilterP", "filterBody"]
+- !private ["11PerfectHTTP18HTTPResponseFilterP", "filterHeaders"]
+- !private ["11PerfectHTTP18HTTPResponseFilterP", "init"]
+- !private ["11PerfectHTTP18HTTPResponseFilterP", "path"]
+- !private ["11PerfectHTTP18HTTPResponseFilterP", ""]
+- !private ["11PerfectHTTP24HTTPResponseFilterResultO", "continue"]
+- !private ["11PerfectHTTP18HTTPResponseStatusO", "movedPermanently"]
+- ["11PerfectHTTP18HTTPResponseStatusO", "notFound"]
+- !private ["17PerfectHTTPServer0B0C", "ALPNSupport"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "allocate"]
+- !private ["s8HashableP", "assumingMemoryBound"]
+- !private ["s8HashableP", "continue"]
+- !private ["s8HashableP", "count"]
+- !private ["s8HashableP", "deallocate"]
+- !private ["s8HashableP", "deinitialize"]
+- !private ["s8HashableP", "from"]
+- ["s8HashableP", "high"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "initialize"]
+- ["s8HashableP", "low"]
+- ["s8HashableP", "medium"]
+- !private ["s8HashableP", "pointee"]
+- !private ["s8HashableP", "split"]
+- !private ["s8HashableP", "uppercased"]
+- !private ["10PerfectLib15JSONConvertibleP", "_getBuiltinLogicValue"]
+- !private ["10PerfectLib15JSONConvertibleP", "append"]
+- !private ["10PerfectLib15JSONConvertibleP", "assumingMemoryBound"]
+- !private ["10PerfectLib15JSONConvertibleP", "count"]
+- !private ["10PerfectLib15JSONConvertibleP", "flatMap"]
+- !private ["10PerfectLib15JSONConvertibleP", "high"]
+- ["10PerfectLib15JSONConvertibleP", "init"]
+- !private ["10PerfectLib15JSONConvertibleP", "joined"]
+- !private ["10PerfectLib15JSONConvertibleP", "map"]
+- ["10PerfectLib15JSONConvertibleP", "some"]
+- !private ["10PerfectLib15JSONConvertibleP", "split"]
+- !private ["10PerfectLib15JSONConvertibleP", "subscript"]
+- !private ["10PerfectLib15JSONConvertibleP", "uppercased"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "count"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "split"]
+- !private ["s25LosslessStringConvertibleP", "uppercased"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "split"]
+- !private ["s10MirrorPathP", "uppercased"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "flatMap"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "joined"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["So8NSCodingP", "count"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "split"]
+- !private ["So8NSCodingP", "uppercased"]
+- !private ["So9NSCopyingP", "count"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "split"]
+- !private ["So9NSCopyingP", "uppercased"]
+- !private ["So21NSItemProviderReadingP", "count"]
+- ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "split"]
+- !private ["So21NSItemProviderReadingP", "uppercased"]
+- !private ["So21NSItemProviderWritingP", "count"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "split"]
+- !private ["So21NSItemProviderWritingP", "uppercased"]
+- !private ["So16NSMutableCopyingP", "count"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "split"]
+- !private ["So16NSMutableCopyingP", "uppercased"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "split"]
+- !private ["So8NSObjectC", "uppercased"]
+- !private ["So16NSObjectProtocolP", "count"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "split"]
+- !private ["So16NSObjectProtocolP", "uppercased"]
+- !private ["So14NSSecureCodingP", "count"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "split"]
+- !private ["So14NSSecureCodingP", "uppercased"]
+- !private ["So8NSStringC", "count"]
+- ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "split"]
+- !private ["So8NSStringC", "uppercased"]
+- !private ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "contentLength"]
+- !private ["11PerfectHTTP18HTTPResponseHeaderO4NameO", "location"]
+- !private ["s7NumericP", "init"]
+- ["10PerfectNet17OpenSSLVerifyModeV", "String"]
+- ["10PerfectNet17OpenSSLVerifyModeV", "init"]
+- !private ["10PerfectNet17OpenSSLVerifyModeV", "sslVerifyClientOnce"]
+- !private ["10PerfectNet17OpenSSLVerifyModeV", "sslVerifyFailIfNoPeerCert"]
+- !private ["10PerfectNet17OpenSSLVerifyModeV", "sslVerifyNone"]
+- !private ["10PerfectNet17OpenSSLVerifyModeV", "sslVerifyPeer"]
+- !private ["10PerfectNet17OpenSSLVerifyModeV", "sslVerifyPeerClientOnce"]
+- !private ["10PerfectNet17OpenSSLVerifyModeV", "sslVerifyPeerWithFailIfNoPeerCert"]
+- !private ["10PerfectNet17OpenSSLVerifyModeV", "sslVerifyPeerWithFailIfNoPeerCertClientOnce"]
+- !private ["s9OptionSetP", "init"]
+- !private ["s9OptionSetP", "sslVerifyClientOnce"]
+- !private ["s9OptionSetP", "sslVerifyFailIfNoPeerCert"]
+- !private ["s9OptionSetP", "sslVerifyNone"]
+- !private ["s9OptionSetP", "sslVerifyPeer"]
+- !private ["s9OptionSetP", "sslVerifyPeerClientOnce"]
+- !private ["s9OptionSetP", "sslVerifyPeerWithFailIfNoPeerCert"]
+- !private ["s9OptionSetP", "sslVerifyPeerWithFailIfNoPeerCertClientOnce"]
+- !private ["Sq", "assumingMemoryBound"]
+- !private ["Sq", "flatMap"]
+- !private ["Sq", "high"]
+- ["Sq", "some"]
+- !private ["10PerfectLib0A5ErrorO", "apiError"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "flatMap"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "joined"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "flatMap"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "joined"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "split"]
+- !private ["s26RangeReplaceableCollectionP", "uppercased"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "sslVerifyClientOnce"]
+- !private ["s16RawRepresentableP", "sslVerifyFailIfNoPeerCert"]
+- !private ["s16RawRepresentableP", "sslVerifyNone"]
+- !private ["s16RawRepresentableP", "sslVerifyPeer"]
+- !private ["s16RawRepresentableP", "sslVerifyPeerClientOnce"]
+- !private ["s16RawRepresentableP", "sslVerifyPeerWithFailIfNoPeerCert"]
+- !private ["s16RawRepresentableP", "sslVerifyPeerWithFailIfNoPeerCertClientOnce"]
+- !private ["11PerfectHTTP5RouteV", "HTTPMethod"]
+- !private ["11PerfectHTTP5RouteV", "PerfectError"]
+- !private ["11PerfectHTTP5RouteV", "RequestHandler"]
+- !private ["11PerfectHTTP5RouteV", "ReturnsRequestHandlerGivenData"]
+- !private ["11PerfectHTTP5RouteV", "Route"]
+- !private ["11PerfectHTTP5RouteV", "String"]
+- !private ["11PerfectHTTP5RouteV", "UInt"]
+- !private ["11PerfectHTTP5RouteV", "UnsafeMutablePointer"]
+- !private ["11PerfectHTTP5RouteV", "UnsafeMutableRawPointer"]
+- !private ["11PerfectHTTP5RouteV", "callWithData"]
+- !private ["11PerfectHTTP5RouteV", "findFunc"]
+- !private ["11PerfectHTTP5RouteV", "init"]
+- !private ["11PerfectHTTP5RouteV", "lookupHandler"]
+- !private ["11PerfectHTTP5RouteV", "swift_func_wrapper"]
+- !private ["11PerfectHTTP5RouteV", "templateWithData"]
+- !private ["11PerfectHTTP6RoutesV", "Route"]
+- ["11PerfectHTTP6RoutesV", "String"]
+- ["11PerfectHTTP6RoutesV", "init"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "flatMap"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "joined"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "split"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "uppercased"]
+- !private ["17PerfectHTTPServer14ServerInstanceP", "ALPNSupport"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "sslVerifyClientOnce"]
+- !private ["s10SetAlgebraP", "sslVerifyFailIfNoPeerCert"]
+- !private ["s10SetAlgebraP", "sslVerifyNone"]
+- !private ["s10SetAlgebraP", "sslVerifyPeer"]
+- !private ["s10SetAlgebraP", "sslVerifyPeerClientOnce"]
+- !private ["s10SetAlgebraP", "sslVerifyPeerWithFailIfNoPeerCert"]
+- !private ["s10SetAlgebraP", "sslVerifyPeerWithFailIfNoPeerCertClientOnce"]
+- !private ["11PerfectHTTP17StaticFileHandlerV", "handleRequest"]
+- !private ["11PerfectHTTP17StaticFileHandlerV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "allocate"]
+- !private ["s10StrideableP", "assumingMemoryBound"]
+- !private ["s10StrideableP", "deallocate"]
+- !private ["s10StrideableP", "deinitialize"]
+- !private ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "initialize"]
+- !private ["s10StrideableP", "pointee"]
+- ["SS", "init"]
+- !private ["SS", "split"]
+- !private ["SS", "uppercased"]
+- !private ["s14StringProtocolP", "count"]
+- ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "split"]
+- !private ["s14StringProtocolP", "uppercased"]
+- !private ["s9SubstringV", "count"]
+- !private ["17PerfectHTTPServer16TLSConfigurationV", "HTTPServer"]
+- !private ["17PerfectHTTPServer16TLSConfigurationV", "OpenSSLVerifyMode"]
+- ["17PerfectHTTPServer16TLSConfigurationV", "String"]
+- !private ["17PerfectHTTPServer16TLSConfigurationV", "TLSConfiguration"]
+- !private ["17PerfectHTTPServer16TLSConfigurationV", "defaultCipherList"]
+- ["17PerfectHTTPServer16TLSConfigurationV", "init"]
+- !private ["s16TextOutputStreamP", "count"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "split"]
+- !private ["s16TextOutputStreamP", "uppercased"]
+- !private ["s20TextOutputStreamableP", "count"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "split"]
+- !private ["s20TextOutputStreamableP", "uppercased"]
+- !private ["Su", "init"]
+- !private ["s9SubstringV9UTF16ViewV", "count"]
+- !private ["s9SubstringV8UTF8ViewV", "count"]
+- !private ["s9SubstringV17UnicodeScalarViewV", "count"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "deallocate"]
+- !private ["Sp", "deinitialize"]
+- !private ["Sp", "initialize"]
+- !private ["Sp", "pointee"]
+- !private ["Sv", "assumingMemoryBound"]
+- !private ["Sv", "init"]
+- !private ["s15UnsignedIntegerP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "flatMap"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- !private ["s23_BidirectionalIndexableP", "flatMap"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "joined"]
+- !private ["s23_BidirectionalIndexableP", "map"]
+- !private ["s23_BidirectionalIndexableP", "split"]
+- !private ["s23_BidirectionalIndexableP", "uppercased"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "flatMap"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "split"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "uppercased"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "split"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "uppercased"]
+- !private ["s56_ExpressibleByBuiltinUTF16ExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s56_ExpressibleByBuiltinUTF16ExtendedGraphemeClusterLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "split"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "uppercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "split"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "uppercased"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "split"]
+- !private ["s33_ExpressibleByStringInterpolationP", "uppercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "split"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "uppercased"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s10_IndexableP", "count"]
+- !private ["s10_IndexableP", "flatMap"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "joined"]
+- !private ["s10_IndexableP", "map"]
+- !private ["s10_IndexableP", "split"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s10_IndexableP", "uppercased"]
+- !private ["s14_IndexableBaseP", "append"]
+- !private ["s14_IndexableBaseP", "count"]
+- !private ["s14_IndexableBaseP", "flatMap"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "joined"]
+- !private ["s14_IndexableBaseP", "map"]
+- !private ["s14_IndexableBaseP", "split"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["s14_IndexableBaseP", "uppercased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "split"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uppercased"]
+- !private ["s17_MutableIndexableP", "append"]
+- !private ["s17_MutableIndexableP", "count"]
+- !private ["s17_MutableIndexableP", "flatMap"]
+- !private ["s17_MutableIndexableP", "init"]
+- !private ["s17_MutableIndexableP", "joined"]
+- !private ["s17_MutableIndexableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "assumingMemoryBound"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "high"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- ["s21_ObjectiveCBridgeableP", "some"]
+- !private ["s21_ObjectiveCBridgeableP", "split"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "uppercased"]
+- !private ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "assumingMemoryBound"]
+- !private ["s8_PointerP", "deallocate"]
+- !private ["s8_PointerP", "deinitialize"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "initialize"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s22_RandomAccessIndexableP", "flatMap"]
+- !private ["s22_RandomAccessIndexableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "joined"]
+- !private ["s22_RandomAccessIndexableP", "map"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "flatMap"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "joined"]
+- !private ["s26_RangeReplaceableIndexableP", "map"]
+- !private ["s26_RangeReplaceableIndexableP", "split"]
+- !private ["s26_RangeReplaceableIndexableP", "uppercased"]
+- !private ["s11_StrideableP", "allocate"]
+- !private ["s11_StrideableP", "assumingMemoryBound"]
+- !private ["s11_StrideableP", "deallocate"]
+- !private ["s11_StrideableP", "deinitialize"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s11_StrideableP", "initialize"]
+- !private ["s11_StrideableP", "pointee"]
+- !private ["s11_StringCoreV", "count"]
+- !private ["s16_SwiftStringViewP", "count"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "split"]
+- !private ["s16_SwiftStringViewP", "uppercased"]
+depends-nominal:
+- !private "17PerfectHTTPServer0B0C11ALPNSupportO"
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s9CharacterV"
+- !private "SS13CharacterViewV"
+- !private "s9SubstringV13CharacterViewV"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "10PerfectLib4FileC"
+- !private "s17FixedWidthIntegerP"
+- "17PerfectHTTPServer10HTTPFilterV"
+- "11PerfectHTTP18HTTPFilterPriorityO"
+- "17PerfectHTTPServer11HTTPHandlerV"
+- !private "11PerfectHTTP10HTTPMethodO"
+- !private "11PerfectHTTP11HTTPRequestP"
+- !private "11PerfectHTTP17HTTPRequestFilterP"
+- !private "11PerfectHTTP23HTTPRequestFilterResultO"
+- !private "11PerfectHTTP12HTTPResponseP"
+- !private "11PerfectHTTP18HTTPResponseFilterP"
+- !private "11PerfectHTTP24HTTPResponseFilterResultO"
+- "11PerfectHTTP18HTTPResponseStatusO"
+- !private "17PerfectHTTPServer0B0C"
+- "s8HashableP"
+- "10PerfectLib15JSONConvertibleP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "11PerfectHTTP18HTTPResponseHeaderO4NameO"
+- !private "s7NumericP"
+- "10PerfectNet17OpenSSLVerifyModeV"
+- !private "s9OptionSetP"
+- "Sq"
+- !private "10PerfectLib0A5ErrorO"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "11PerfectHTTP5RouteV"
+- "11PerfectHTTP6RoutesV"
+- "s8SequenceP"
+- !private "17PerfectHTTPServer14ServerInstanceP"
+- !private "s10SetAlgebraP"
+- !private "11PerfectHTTP17StaticFileHandlerV"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- !private "s9SubstringV"
+- "17PerfectHTTPServer16TLSConfigurationV"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "Su"
+- !private "s9SubstringV9UTF16ViewV"
+- !private "s9SubstringV8UTF8ViewV"
+- !private "s9SubstringV17UnicodeScalarViewV"
+- !private "Sp"
+- !private "Sv"
+- !private "s15UnsignedIntegerP"
+- !private "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s56_ExpressibleByBuiltinUTF16ExtendedGraphemeClusterLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s11_StringCoreV"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.swiftmodule"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.swiftmodule"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectThread.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectCrypto.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectNet.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../asn1.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../tls1.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dtls1.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl2.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem2.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../e_os2.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl23.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl3.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pkcs7.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../sha.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dsa.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdsa.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rsa.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/../zlib.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/czlib.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../obj_mac.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../hmac.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ec.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rand.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pqueue.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslconf.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/../zconf.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dh.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdh.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../lhash.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../stack.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../safestack.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/../zutil.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../kssl.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/openssl.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bn.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bio.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../crypto.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../comp.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../srtp.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../evp.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ossl_typ.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../buffer.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include/http_parser.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../err.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/../inftrees.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../symhacks.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../cms.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../objects.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslv.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509_vfy.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/module.modulemap"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include/module.modulemap"
+interface-hash: "33917dcfc2bfab2e59f5a1425b0389e7"

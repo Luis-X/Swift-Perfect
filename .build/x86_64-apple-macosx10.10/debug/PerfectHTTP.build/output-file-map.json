@@ -1,0 +1,65 @@
+{
+  "": {
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/master.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/HTTPFilter.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/HTTPFilter.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/HTTPFilter.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/HTTPFilter~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/HTTPFilter.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/HTTPHeaders.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/HTTPHeaders.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/HTTPHeaders.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/HTTPHeaders~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/HTTPHeaders.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/HTTPMethod.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/HTTPMethod.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/HTTPMethod.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/HTTPMethod~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/HTTPMethod.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/HTTPRequest.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/HTTPRequest.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/HTTPRequest.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/HTTPRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/HTTPRequest.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/HTTPResponse.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/HTTPResponse.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/HTTPResponse.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/HTTPResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/HTTPResponse.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/MimeReader.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/MimeReader.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/MimeReader.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/MimeReader~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/MimeReader.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/MimeType.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/MimeType.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/MimeType.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/MimeType~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/MimeType.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/Routing.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/Routing.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/Routing.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/Routing~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/Routing.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/StaticFileHandler.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/StaticFileHandler.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/StaticFileHandler.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/StaticFileHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/StaticFileHandler.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/TypedRoutes.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/TypedRoutes.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/TypedRoutes.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/TypedRoutes~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.build/TypedRoutes.swiftdeps"
+  }
+}

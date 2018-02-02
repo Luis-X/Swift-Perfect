@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "f3f24642873aa475a92a2bcaf1a8f17b"
+build_time: [1517577747, 533855000]
+inputs:
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/Sources/DataBaseManager.swift": [1517557781, 0]
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/Sources/NetworkServerManager.swift": [1517563374, 0]
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/Sources/main.swift": [1508221142, 0]

@@ -1,0 +1,135 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Promise"
+- "BrokenPromise"
+- "DestroyerOfQueues"
+provides-nominal:
+- "13PerfectThread7PromiseC"
+- "13PerfectThread13BrokenPromiseV"
+- "13PerfectThread17DestroyerOfQueuesC"
+provides-member:
+- ["13PerfectThread7PromiseC", ""]
+- ["13PerfectThread13BrokenPromiseV", ""]
+- ["13PerfectThread17DestroyerOfQueuesC", ""]
+- ["13PerfectThread7PromiseC", "get"]
+- ["13PerfectThread7PromiseC", "wait"]
+- ["13PerfectThread7PromiseC", "set"]
+- ["13PerfectThread7PromiseC", "fail"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "BrokenPromise"
+- "DestroyerOfQueues"
+- "Double"
+- "Error"
+- "Promise"
+- "ThreadQueue"
+- "Threading"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["13PerfectThread13BrokenPromiseV", "_code"]
+- ["13PerfectThread13BrokenPromiseV", "_domain"]
+- ["13PerfectThread13BrokenPromiseV", "_getEmbeddedNSError"]
+- ["13PerfectThread13BrokenPromiseV", "_userInfo"]
+- ["13PerfectThread13BrokenPromiseV", "deinit"]
+- ["13PerfectThread13BrokenPromiseV", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["13PerfectThread17DestroyerOfQueuesC", "ThreadQueue"]
+- ["13PerfectThread17DestroyerOfQueuesC", "Threading"]
+- ["13PerfectThread17DestroyerOfQueuesC", "deinit"]
+- ["13PerfectThread17DestroyerOfQueuesC", "dispatch"]
+- ["13PerfectThread17DestroyerOfQueuesC", "init"]
+- ["13PerfectThread17DestroyerOfQueuesC", "queue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "serial"]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "init"]
+- ["s5ErrorP", ""]
+- !private ["13PerfectThread9ThreadingV5EventC", "broadcast"]
+- ["13PerfectThread9ThreadingV5EventC", "init"]
+- !private ["13PerfectThread9ThreadingV5EventC", "lock"]
+- !private ["13PerfectThread9ThreadingV5EventC", "unlock"]
+- !private ["13PerfectThread9ThreadingV5EventC", "wait"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "serial"]
+- !private ["13PerfectThread9ThreadingV4LockC", "broadcast"]
+- ["13PerfectThread9ThreadingV4LockC", "init"]
+- !private ["13PerfectThread9ThreadingV4LockC", "lock"]
+- !private ["13PerfectThread9ThreadingV4LockC", "unlock"]
+- !private ["13PerfectThread9ThreadingV4LockC", "wait"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["13PerfectThread7PromiseC", "BrokenPromise"]
+- ["13PerfectThread7PromiseC", "DestroyerOfQueues"]
+- ["13PerfectThread7PromiseC", "Double"]
+- ["13PerfectThread7PromiseC", "Error"]
+- ["13PerfectThread7PromiseC", "Promise"]
+- ["13PerfectThread7PromiseC", "ReturnType"]
+- ["13PerfectThread7PromiseC", "Threading"]
+- ["13PerfectThread7PromiseC", "deinit"]
+- ["13PerfectThread7PromiseC", "error"]
+- ["13PerfectThread7PromiseC", "event"]
+- ["13PerfectThread7PromiseC", "fail"]
+- ["13PerfectThread7PromiseC", "get"]
+- ["13PerfectThread7PromiseC", "init"]
+- ["13PerfectThread7PromiseC", "queue"]
+- ["13PerfectThread7PromiseC", "set"]
+- ["13PerfectThread7PromiseC", "then"]
+- ["13PerfectThread7PromiseC", "value"]
+- ["13PerfectThread7PromiseC", "wait"]
+- !private ["13PerfectThread9ThreadingV9QueueTypeO", "serial"]
+- !private ["13PerfectThread0B5QueueP", "dispatch"]
+- ["13PerfectThread9ThreadingV", "Event"]
+- ["13PerfectThread9ThreadingV", "ThreadClosure"]
+- !private ["13PerfectThread9ThreadingV", "destroyQueue"]
+- !private ["13PerfectThread9ThreadingV", "getQueue"]
+- !private ["13PerfectThread9ThreadingV", "noTimeout"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Sb"
+- "13PerfectThread13BrokenPromiseV"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- "13PerfectThread17DestroyerOfQueuesC"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- "s5ErrorP"
+- "13PerfectThread9ThreadingV5EventC"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s8HashableP"
+- "13PerfectThread9ThreadingV4LockC"
+- !private "s25LosslessStringConvertibleP"
+- "13PerfectThread7PromiseC"
+- !private "13PerfectThread9ThreadingV9QueueTypeO"
+- !private "13PerfectThread0B5QueueP"
+- "13PerfectThread9ThreadingV"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode9.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode9.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode9.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode9.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "93d2ab98e042e4eb9fff24d253161814"

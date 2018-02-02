@@ -1,0 +1,65 @@
+{
+  "": {
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/master.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Bytes.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Bytes.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Bytes.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Bytes~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Bytes.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Dir.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Dir.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Dir.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Dir~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Dir.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/File.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/File.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/File.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/File~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/File.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/JSONConvertible.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/JSONConvertible.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/JSONConvertible.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/JSONConvertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/JSONConvertible.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Log.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Log.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Log.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Log~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Log.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/PerfectError.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/PerfectError.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/PerfectError.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/PerfectError~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/PerfectError.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/PerfectServer.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/PerfectServer.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/PerfectServer.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/PerfectServer~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/PerfectServer.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/SwiftCompatibility.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/SwiftCompatibility.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/SwiftCompatibility.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/SwiftCompatibility~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/SwiftCompatibility.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/SysProcess.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/SysProcess.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/SysProcess.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/SysProcess~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/SysProcess.swiftdeps"
+  },
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Utilities.swift": {
+    "dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Utilities.d",
+    "object": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Utilities.swift.o",
+    "swiftmodule": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Utilities~partial.swiftmodule",
+    "swift-dependencies": "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.build/Utilities.swiftdeps"
+  }
+}

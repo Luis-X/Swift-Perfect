@@ -1,0 +1,1250 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OpenSSLInternal"
+- "internal_RAND_bytes"
+provides-nominal:
+- "13PerfectCrypto15OpenSSLInternalV"
+provides-member:
+- ["13PerfectCrypto15OpenSSLInternalV", ""]
+- ["13PerfectCrypto0B5ErrorV", ""]
+- ["13PerfectCrypto8EncodingO", ""]
+- ["13PerfectCrypto6DigestO", ""]
+- ["13PerfectCrypto6CipherO", ""]
+- ["13PerfectCrypto0B5ErrorV", "throwOpenSSLError"]
+- ["13PerfectCrypto8EncodingO", "encodeBytes"]
+- ["13PerfectCrypto8EncodingO", "decodeBytes"]
+- ["13PerfectCrypto6DigestO", "bio"]
+- ["13PerfectCrypto6DigestO", "evp"]
+- ["13PerfectCrypto6DigestO", "length"]
+- ["13PerfectCrypto6DigestO", "sign"]
+- ["13PerfectCrypto6DigestO", "verify"]
+- ["13PerfectCrypto6DigestO", "deriveKey"]
+- ["13PerfectCrypto6DigestO", "deriveKey"]
+- ["13PerfectCrypto6DigestO", "deriveKey"]
+- ["13PerfectCrypto6CipherO", "evp"]
+- ["13PerfectCrypto6CipherO", "blockSize"]
+- ["13PerfectCrypto6CipherO", "keyLength"]
+- ["13PerfectCrypto6CipherO", "ivLength"]
+- ["13PerfectCrypto6CipherO", "encryptLength"]
+- ["13PerfectCrypto6CipherO", "decryptLength"]
+- ["13PerfectCrypto6CipherO", "encrypt"]
+- ["13PerfectCrypto6CipherO", "decrypt"]
+- ["13PerfectCrypto6CipherO", "encrypt"]
+- ["13PerfectCrypto6CipherO", "decrypt"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "!="
+- !private "%"
+- "&"
+- !private "&&"
+- !private "*"
+- !private "*="
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "-="
+- "..<"
+- !private "/"
+- !private "<"
+- !private "<="
+- !private "=="
+- !private ">"
+- !private ">="
+- !private ">>"
+- !private "??"
+- !private "Array"
+- !private "AssignmentPrecedence"
+- "BIO"
+- !private "BIO_C_SET_MD"
+- !private "BIO_ctrl"
+- !private "BIO_f_md"
+- !private "BIO_new"
+- !private "Base64Filter"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CMS_BINARY"
+- !private "CMS_ContentInfo_free"
+- !private "CMS_EncryptedData_decrypt"
+- !private "CMS_EncryptedData_encrypt"
+- !private "CMS_STREAM"
+- "CRYPTO_LOCK"
+- !private "CRYPTO_memcmp"
+- "CRYPTO_num_locks"
+- "CRYPTO_set_id_callback"
+- "CRYPTO_set_locking_callback"
+- "CastingPrecedence"
+- "Cipher"
+- "CryptoError"
+- "Digest"
+- !private "ERR_error_string_n"
+- !private "ERR_get_error"
+- "ERR_load_BIO_strings"
+- "ERR_load_crypto_strings"
+- "EVP_CIPHER"
+- !private "EVP_CIPHER_CTX_free"
+- !private "EVP_CIPHER_CTX_new"
+- !private "EVP_DecryptFinal"
+- !private "EVP_DecryptInit_ex"
+- !private "EVP_DecryptUpdate"
+- !private "EVP_DigestSignFinal"
+- !private "EVP_DigestSignInit"
+- !private "EVP_DigestUpdate"
+- !private "EVP_DigestVerifyFinal"
+- !private "EVP_DigestVerifyInit"
+- !private "EVP_EncryptFinal"
+- !private "EVP_EncryptInit_ex"
+- !private "EVP_EncryptUpdate"
+- "EVP_MD"
+- !private "EVP_MD_CTX_create"
+- !private "EVP_MD_CTX_destroy"
+- !private "EVP_aes_128_cbc"
+- !private "EVP_aes_128_cbc_hmac_sha1"
+- !private "EVP_aes_128_cbc_hmac_sha256"
+- !private "EVP_aes_128_ccm"
+- !private "EVP_aes_128_cfb1"
+- !private "EVP_aes_128_cfb128"
+- !private "EVP_aes_128_cfb8"
+- !private "EVP_aes_128_ctr"
+- !private "EVP_aes_128_ecb"
+- !private "EVP_aes_128_gcm"
+- !private "EVP_aes_128_ofb"
+- !private "EVP_aes_128_wrap"
+- !private "EVP_aes_128_xts"
+- !private "EVP_aes_192_cbc"
+- !private "EVP_aes_192_ccm"
+- !private "EVP_aes_192_cfb1"
+- !private "EVP_aes_192_cfb128"
+- !private "EVP_aes_192_cfb8"
+- !private "EVP_aes_192_ctr"
+- !private "EVP_aes_192_ecb"
+- !private "EVP_aes_192_gcm"
+- !private "EVP_aes_192_ofb"
+- !private "EVP_aes_192_wrap"
+- !private "EVP_aes_256_cbc"
+- !private "EVP_aes_256_cbc_hmac_sha1"
+- !private "EVP_aes_256_cbc_hmac_sha256"
+- !private "EVP_aes_256_ccm"
+- !private "EVP_aes_256_cfb1"
+- !private "EVP_aes_256_cfb128"
+- !private "EVP_aes_256_cfb8"
+- !private "EVP_aes_256_ctr"
+- !private "EVP_aes_256_ecb"
+- !private "EVP_aes_256_gcm"
+- !private "EVP_aes_256_ofb"
+- !private "EVP_aes_256_wrap"
+- !private "EVP_aes_256_xts"
+- !private "EVP_bf_cbc"
+- !private "EVP_bf_cfb64"
+- !private "EVP_bf_ecb"
+- !private "EVP_bf_ofb"
+- !private "EVP_camellia_128_cbc"
+- !private "EVP_camellia_128_cfb1"
+- !private "EVP_camellia_128_cfb128"
+- !private "EVP_camellia_128_cfb8"
+- !private "EVP_camellia_128_ecb"
+- !private "EVP_camellia_128_ofb"
+- !private "EVP_camellia_192_cbc"
+- !private "EVP_camellia_192_cfb1"
+- !private "EVP_camellia_192_cfb128"
+- !private "EVP_camellia_192_cfb8"
+- !private "EVP_camellia_192_ecb"
+- !private "EVP_camellia_192_ofb"
+- !private "EVP_camellia_256_cbc"
+- !private "EVP_camellia_256_cfb1"
+- !private "EVP_camellia_256_cfb128"
+- !private "EVP_camellia_256_cfb8"
+- !private "EVP_camellia_256_ecb"
+- !private "EVP_camellia_256_ofb"
+- !private "EVP_cast5_cbc"
+- !private "EVP_cast5_cfb64"
+- !private "EVP_cast5_ecb"
+- !private "EVP_cast5_ofb"
+- !private "EVP_des_cbc"
+- !private "EVP_des_cfb1"
+- !private "EVP_des_cfb64"
+- !private "EVP_des_cfb8"
+- !private "EVP_des_ecb"
+- !private "EVP_des_ede"
+- !private "EVP_des_ede3"
+- !private "EVP_des_ede3_cbc"
+- !private "EVP_des_ede3_cfb1"
+- !private "EVP_des_ede3_cfb8"
+- !private "EVP_des_ede3_ecb"
+- !private "EVP_des_ede3_ofb"
+- !private "EVP_des_ede3_wrap"
+- !private "EVP_des_ede_cbc"
+- !private "EVP_des_ede_cfb64"
+- !private "EVP_des_ede_ecb"
+- !private "EVP_des_ede_ofb"
+- !private "EVP_des_ofb"
+- !private "EVP_desx_cbc"
+- !private "EVP_dss"
+- !private "EVP_dss1"
+- !private "EVP_ecdsa"
+- !private "EVP_get_cipherbyname"
+- !private "EVP_get_digestbyname"
+- !private "EVP_md4"
+- !private "EVP_md5"
+- !private "EVP_rc2_40_cbc"
+- !private "EVP_rc2_64_cbc"
+- !private "EVP_rc2_cbc"
+- !private "EVP_rc2_cfb64"
+- !private "EVP_rc2_ecb"
+- !private "EVP_rc2_ofb"
+- !private "EVP_rc4"
+- !private "EVP_rc4_40"
+- !private "EVP_rc4_hmac_md5"
+- !private "EVP_ripemd160"
+- !private "EVP_seed_cbc"
+- !private "EVP_seed_cfb128"
+- !private "EVP_seed_ecb"
+- !private "EVP_seed_ofb"
+- !private "EVP_sha"
+- !private "EVP_sha1"
+- !private "EVP_sha224"
+- !private "EVP_sha256"
+- !private "EVP_sha384"
+- !private "EVP_sha512"
+- !private "EVP_whirlpool"
+- "Encoding"
+- "FloatLiteralType"
+- !private "HMACKey"
+- "Int"
+- "Int32"
+- "Int8"
+- "IntegerLiteralType"
+- "Key"
+- !private "MemoryIO"
+- "Never"
+- "OPENSSL_add_all_algorithms_conf"
+- "OpenSSLInternal"
+- !private "PEM_read_bio_CMS"
+- !private "PEM_write_bio_CMS_stream"
+- !private "PKCS5_PBKDF2_HMAC"
+- !private "RAND_bytes"
+- "String"
+- !private "StringLiteralType"
+- !private "TernaryPrecedence"
+- "Threading"
+- "UInt"
+- !private "UInt32"
+- "UInt8"
+- !private "UnsafeMutablePointer"
+- "UnsafeMutableRawBufferPointer"
+- !private "UnsafeMutableRawPointer"
+- "UnsafePointer"
+- "UnsafeRawBufferPointer"
+- !private "dash"
+- !private "equal"
+- !private "fslash"
+- "internal_RAND_bytes"
+- !private "memcpy"
+- "openSSLLocks"
+- !private "plus"
+- "pthread_self"
+- !private "stride"
+- !private "uscore"
+- !private "|"
+- !private "~="
+depends-member:
+- ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- ["Sa", "subscript"]
+- ["s10ArraySliceV", "lock"]
+- ["s10ArraySliceV", "unlock"]
+- !private ["13PerfectCrypto12Base64FilterC", "chain"]
+- !private ["13PerfectCrypto12Base64FilterC", "init"]
+- !private ["s23BidirectionalCollectionP", "allocate"]
+- ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "baseAddress"]
+- !private ["s23BidirectionalCollectionP", "copyBytes"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "deallocate"]
+- !private ["s23BidirectionalCollectionP", "endIndex"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- ["s23BidirectionalCollectionP", "lock"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "sign"]
+- !private ["s23BidirectionalCollectionP", "startIndex"]
+- ["s23BidirectionalCollectionP", "subscript"]
+- ["s23BidirectionalCollectionP", "unlock"]
+- !private ["s23BidirectionalCollectionP", "utf8"]
+- ["s13BinaryIntegerP", "init"]
+- ["Sb", "_getBuiltinLogicValue"]
+- !private ["13PerfectCrypto6ByteIOP", "bio"]
+- !private ["13PerfectCrypto6ByteIOP", "flush"]
+- !private ["13PerfectCrypto6ByteIOP", "init"]
+- !private ["13PerfectCrypto6ByteIOP", "memory"]
+- !private ["13PerfectCrypto6ByteIOP", "read"]
+- !private ["13PerfectCrypto6ByteIOP", "readPending"]
+- !private ["13PerfectCrypto6ByteIOP", "write"]
+- !private ["13PerfectCrypto10ByteIOBaseC", "bio"]
+- !private ["13PerfectCrypto10ByteIOBaseC", "chain"]
+- !private ["13PerfectCrypto10ByteIOBaseC", "flush"]
+- !private ["13PerfectCrypto10ByteIOBaseC", "memory"]
+- !private ["13PerfectCrypto10ByteIOBaseC", "read"]
+- !private ["13PerfectCrypto10ByteIOBaseC", "readPending"]
+- !private ["13PerfectCrypto10ByteIOBaseC", "write"]
+- !private ["13PerfectCrypto8ByteSinkP", "bio"]
+- !private ["13PerfectCrypto8ByteSinkP", "flush"]
+- !private ["13PerfectCrypto8ByteSinkP", "init"]
+- !private ["13PerfectCrypto8ByteSinkP", "memory"]
+- !private ["13PerfectCrypto8ByteSinkP", "read"]
+- !private ["13PerfectCrypto8ByteSinkP", "readPending"]
+- !private ["13PerfectCrypto8ByteSinkP", "write"]
+- !private ["13PerfectCrypto10ByteSourceP", "bio"]
+- !private ["13PerfectCrypto10ByteSourceP", "flush"]
+- !private ["13PerfectCrypto10ByteSourceP", "init"]
+- !private ["13PerfectCrypto10ByteSourceP", "memory"]
+- !private ["13PerfectCrypto10ByteSourceP", "read"]
+- !private ["13PerfectCrypto10ByteSourceP", "readPending"]
+- !private ["13PerfectCrypto10ByteSourceP", "write"]
+- !private ["s7CVarArgP", "advanced"]
+- !private ["s7CVarArgP", "allocate"]
+- ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "deallocate"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pointee"]
+- ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "utf8"]
+- !private ["13PerfectCrypto6CipherO", "CMS_BINARY"]
+- !private ["13PerfectCrypto6CipherO", "CMS_ContentInfo_free"]
+- !private ["13PerfectCrypto6CipherO", "CMS_EncryptedData_decrypt"]
+- !private ["13PerfectCrypto6CipherO", "CMS_EncryptedData_encrypt"]
+- !private ["13PerfectCrypto6CipherO", "CMS_STREAM"]
+- ["13PerfectCrypto6CipherO", "Digest"]
+- ["13PerfectCrypto6CipherO", "EVP_CIPHER"]
+- !private ["13PerfectCrypto6CipherO", "EVP_CIPHER_CTX_free"]
+- !private ["13PerfectCrypto6CipherO", "EVP_CIPHER_CTX_new"]
+- !private ["13PerfectCrypto6CipherO", "EVP_DecryptFinal"]
+- !private ["13PerfectCrypto6CipherO", "EVP_DecryptInit_ex"]
+- !private ["13PerfectCrypto6CipherO", "EVP_DecryptUpdate"]
+- !private ["13PerfectCrypto6CipherO", "EVP_EncryptFinal"]
+- !private ["13PerfectCrypto6CipherO", "EVP_EncryptInit_ex"]
+- !private ["13PerfectCrypto6CipherO", "EVP_EncryptUpdate"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_128_cbc"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_128_cbc_hmac_sha1"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_128_cbc_hmac_sha256"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_128_ccm"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_128_cfb1"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_128_cfb128"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_128_cfb8"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_128_ctr"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_128_ecb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_128_gcm"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_128_ofb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_128_wrap"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_128_xts"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_192_cbc"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_192_ccm"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_192_cfb1"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_192_cfb128"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_192_cfb8"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_192_ctr"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_192_ecb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_192_gcm"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_192_ofb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_192_wrap"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_256_cbc"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_256_cbc_hmac_sha1"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_256_cbc_hmac_sha256"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_256_ccm"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_256_cfb1"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_256_cfb128"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_256_cfb8"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_256_ctr"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_256_ecb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_256_gcm"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_256_ofb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_256_wrap"]
+- !private ["13PerfectCrypto6CipherO", "EVP_aes_256_xts"]
+- !private ["13PerfectCrypto6CipherO", "EVP_bf_cbc"]
+- !private ["13PerfectCrypto6CipherO", "EVP_bf_cfb64"]
+- !private ["13PerfectCrypto6CipherO", "EVP_bf_ecb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_bf_ofb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_camellia_128_cbc"]
+- !private ["13PerfectCrypto6CipherO", "EVP_camellia_128_cfb1"]
+- !private ["13PerfectCrypto6CipherO", "EVP_camellia_128_cfb128"]
+- !private ["13PerfectCrypto6CipherO", "EVP_camellia_128_cfb8"]
+- !private ["13PerfectCrypto6CipherO", "EVP_camellia_128_ecb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_camellia_128_ofb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_camellia_192_cbc"]
+- !private ["13PerfectCrypto6CipherO", "EVP_camellia_192_cfb1"]
+- !private ["13PerfectCrypto6CipherO", "EVP_camellia_192_cfb128"]
+- !private ["13PerfectCrypto6CipherO", "EVP_camellia_192_cfb8"]
+- !private ["13PerfectCrypto6CipherO", "EVP_camellia_192_ecb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_camellia_192_ofb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_camellia_256_cbc"]
+- !private ["13PerfectCrypto6CipherO", "EVP_camellia_256_cfb1"]
+- !private ["13PerfectCrypto6CipherO", "EVP_camellia_256_cfb128"]
+- !private ["13PerfectCrypto6CipherO", "EVP_camellia_256_cfb8"]
+- !private ["13PerfectCrypto6CipherO", "EVP_camellia_256_ecb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_camellia_256_ofb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_cast5_cbc"]
+- !private ["13PerfectCrypto6CipherO", "EVP_cast5_cfb64"]
+- !private ["13PerfectCrypto6CipherO", "EVP_cast5_ecb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_cast5_ofb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_des_cbc"]
+- !private ["13PerfectCrypto6CipherO", "EVP_des_cfb1"]
+- !private ["13PerfectCrypto6CipherO", "EVP_des_cfb64"]
+- !private ["13PerfectCrypto6CipherO", "EVP_des_cfb8"]
+- !private ["13PerfectCrypto6CipherO", "EVP_des_ecb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_des_ede"]
+- !private ["13PerfectCrypto6CipherO", "EVP_des_ede3"]
+- !private ["13PerfectCrypto6CipherO", "EVP_des_ede3_cbc"]
+- !private ["13PerfectCrypto6CipherO", "EVP_des_ede3_cfb1"]
+- !private ["13PerfectCrypto6CipherO", "EVP_des_ede3_cfb8"]
+- !private ["13PerfectCrypto6CipherO", "EVP_des_ede3_ecb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_des_ede3_ofb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_des_ede3_wrap"]
+- !private ["13PerfectCrypto6CipherO", "EVP_des_ede_cbc"]
+- !private ["13PerfectCrypto6CipherO", "EVP_des_ede_cfb64"]
+- !private ["13PerfectCrypto6CipherO", "EVP_des_ede_ecb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_des_ede_ofb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_des_ofb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_desx_cbc"]
+- !private ["13PerfectCrypto6CipherO", "EVP_get_cipherbyname"]
+- !private ["13PerfectCrypto6CipherO", "EVP_rc2_40_cbc"]
+- !private ["13PerfectCrypto6CipherO", "EVP_rc2_64_cbc"]
+- !private ["13PerfectCrypto6CipherO", "EVP_rc2_cbc"]
+- !private ["13PerfectCrypto6CipherO", "EVP_rc2_cfb64"]
+- !private ["13PerfectCrypto6CipherO", "EVP_rc2_ecb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_rc2_ofb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_rc4"]
+- !private ["13PerfectCrypto6CipherO", "EVP_rc4_40"]
+- !private ["13PerfectCrypto6CipherO", "EVP_rc4_hmac_md5"]
+- !private ["13PerfectCrypto6CipherO", "EVP_seed_cbc"]
+- !private ["13PerfectCrypto6CipherO", "EVP_seed_cfb128"]
+- !private ["13PerfectCrypto6CipherO", "EVP_seed_ecb"]
+- !private ["13PerfectCrypto6CipherO", "EVP_seed_ofb"]
+- ["13PerfectCrypto6CipherO", "Int"]
+- !private ["13PerfectCrypto6CipherO", "Int32"]
+- !private ["13PerfectCrypto6CipherO", "MemoryIO"]
+- !private ["13PerfectCrypto6CipherO", "PEM_read_bio_CMS"]
+- !private ["13PerfectCrypto6CipherO", "PEM_write_bio_CMS_stream"]
+- !private ["13PerfectCrypto6CipherO", "UInt32"]
+- !private ["13PerfectCrypto6CipherO", "UInt8"]
+- ["13PerfectCrypto6CipherO", "UnsafeMutableRawBufferPointer"]
+- ["13PerfectCrypto6CipherO", "UnsafePointer"]
+- ["13PerfectCrypto6CipherO", "UnsafeRawBufferPointer"]
+- ["13PerfectCrypto6CipherO", "aes_128_cbc"]
+- ["13PerfectCrypto6CipherO", "aes_128_cbc_hmac_sha1"]
+- ["13PerfectCrypto6CipherO", "aes_128_cbc_hmac_sha256"]
+- ["13PerfectCrypto6CipherO", "aes_128_ccm"]
+- ["13PerfectCrypto6CipherO", "aes_128_cfb1"]
+- ["13PerfectCrypto6CipherO", "aes_128_cfb128"]
+- ["13PerfectCrypto6CipherO", "aes_128_cfb8"]
+- ["13PerfectCrypto6CipherO", "aes_128_ctr"]
+- ["13PerfectCrypto6CipherO", "aes_128_ecb"]
+- ["13PerfectCrypto6CipherO", "aes_128_gcm"]
+- ["13PerfectCrypto6CipherO", "aes_128_ofb"]
+- ["13PerfectCrypto6CipherO", "aes_128_wrap"]
+- ["13PerfectCrypto6CipherO", "aes_128_xts"]
+- ["13PerfectCrypto6CipherO", "aes_192_cbc"]
+- ["13PerfectCrypto6CipherO", "aes_192_ccm"]
+- ["13PerfectCrypto6CipherO", "aes_192_cfb1"]
+- ["13PerfectCrypto6CipherO", "aes_192_cfb128"]
+- ["13PerfectCrypto6CipherO", "aes_192_cfb8"]
+- ["13PerfectCrypto6CipherO", "aes_192_ctr"]
+- ["13PerfectCrypto6CipherO", "aes_192_ecb"]
+- ["13PerfectCrypto6CipherO", "aes_192_gcm"]
+- ["13PerfectCrypto6CipherO", "aes_192_ofb"]
+- ["13PerfectCrypto6CipherO", "aes_192_wrap"]
+- ["13PerfectCrypto6CipherO", "aes_256_cbc"]
+- ["13PerfectCrypto6CipherO", "aes_256_cbc_hmac_sha1"]
+- ["13PerfectCrypto6CipherO", "aes_256_cbc_hmac_sha256"]
+- ["13PerfectCrypto6CipherO", "aes_256_ccm"]
+- ["13PerfectCrypto6CipherO", "aes_256_cfb1"]
+- ["13PerfectCrypto6CipherO", "aes_256_cfb128"]
+- ["13PerfectCrypto6CipherO", "aes_256_cfb8"]
+- ["13PerfectCrypto6CipherO", "aes_256_ctr"]
+- ["13PerfectCrypto6CipherO", "aes_256_ecb"]
+- ["13PerfectCrypto6CipherO", "aes_256_gcm"]
+- ["13PerfectCrypto6CipherO", "aes_256_ofb"]
+- ["13PerfectCrypto6CipherO", "aes_256_wrap"]
+- ["13PerfectCrypto6CipherO", "aes_256_xts"]
+- ["13PerfectCrypto6CipherO", "bf_cbc"]
+- ["13PerfectCrypto6CipherO", "bf_cfb64"]
+- ["13PerfectCrypto6CipherO", "bf_ecb"]
+- ["13PerfectCrypto6CipherO", "bf_ofb"]
+- ["13PerfectCrypto6CipherO", "blockSize"]
+- ["13PerfectCrypto6CipherO", "camellia_128_cbc"]
+- ["13PerfectCrypto6CipherO", "camellia_128_cfb1"]
+- ["13PerfectCrypto6CipherO", "camellia_128_cfb128"]
+- ["13PerfectCrypto6CipherO", "camellia_128_cfb8"]
+- ["13PerfectCrypto6CipherO", "camellia_128_ecb"]
+- ["13PerfectCrypto6CipherO", "camellia_128_ofb"]
+- ["13PerfectCrypto6CipherO", "camellia_192_cbc"]
+- ["13PerfectCrypto6CipherO", "camellia_192_cfb1"]
+- ["13PerfectCrypto6CipherO", "camellia_192_cfb128"]
+- ["13PerfectCrypto6CipherO", "camellia_192_cfb8"]
+- ["13PerfectCrypto6CipherO", "camellia_192_ecb"]
+- ["13PerfectCrypto6CipherO", "camellia_192_ofb"]
+- ["13PerfectCrypto6CipherO", "camellia_256_cbc"]
+- ["13PerfectCrypto6CipherO", "camellia_256_cfb1"]
+- ["13PerfectCrypto6CipherO", "camellia_256_cfb128"]
+- ["13PerfectCrypto6CipherO", "camellia_256_cfb8"]
+- ["13PerfectCrypto6CipherO", "camellia_256_ecb"]
+- ["13PerfectCrypto6CipherO", "camellia_256_ofb"]
+- ["13PerfectCrypto6CipherO", "cast5_cbc"]
+- ["13PerfectCrypto6CipherO", "cast5_cfb64"]
+- ["13PerfectCrypto6CipherO", "cast5_ecb"]
+- ["13PerfectCrypto6CipherO", "cast5_ofb"]
+- ["13PerfectCrypto6CipherO", "custom"]
+- ["13PerfectCrypto6CipherO", "decrypt"]
+- ["13PerfectCrypto6CipherO", "decryptLength"]
+- ["13PerfectCrypto6CipherO", "des_cbc"]
+- ["13PerfectCrypto6CipherO", "des_cfb1"]
+- ["13PerfectCrypto6CipherO", "des_cfb64"]
+- ["13PerfectCrypto6CipherO", "des_cfb8"]
+- ["13PerfectCrypto6CipherO", "des_ecb"]
+- ["13PerfectCrypto6CipherO", "des_ede"]
+- ["13PerfectCrypto6CipherO", "des_ede3"]
+- ["13PerfectCrypto6CipherO", "des_ede3_cbc"]
+- ["13PerfectCrypto6CipherO", "des_ede3_cfb1"]
+- ["13PerfectCrypto6CipherO", "des_ede3_cfb8"]
+- ["13PerfectCrypto6CipherO", "des_ede3_ecb"]
+- ["13PerfectCrypto6CipherO", "des_ede3_ofb"]
+- ["13PerfectCrypto6CipherO", "des_ede3_wrap"]
+- ["13PerfectCrypto6CipherO", "des_ede_cbc"]
+- ["13PerfectCrypto6CipherO", "des_ede_cfb64"]
+- ["13PerfectCrypto6CipherO", "des_ede_ecb"]
+- ["13PerfectCrypto6CipherO", "des_ede_ofb"]
+- ["13PerfectCrypto6CipherO", "des_ofb"]
+- ["13PerfectCrypto6CipherO", "desx_cbc"]
+- ["13PerfectCrypto6CipherO", "encrypt"]
+- ["13PerfectCrypto6CipherO", "encryptLength"]
+- ["13PerfectCrypto6CipherO", "evp"]
+- ["13PerfectCrypto6CipherO", "ivLength"]
+- ["13PerfectCrypto6CipherO", "keyLength"]
+- !private ["13PerfectCrypto6CipherO", "memcpy"]
+- ["13PerfectCrypto6CipherO", "rc2_40_cbc"]
+- ["13PerfectCrypto6CipherO", "rc2_64_cbc"]
+- ["13PerfectCrypto6CipherO", "rc2_cbc"]
+- ["13PerfectCrypto6CipherO", "rc2_cfb64"]
+- ["13PerfectCrypto6CipherO", "rc2_ecb"]
+- ["13PerfectCrypto6CipherO", "rc2_ofb"]
+- ["13PerfectCrypto6CipherO", "rc4"]
+- ["13PerfectCrypto6CipherO", "rc4_40"]
+- ["13PerfectCrypto6CipherO", "rc4_hmac_md5"]
+- ["13PerfectCrypto6CipherO", "seed_cbc"]
+- ["13PerfectCrypto6CipherO", "seed_cfb128"]
+- ["13PerfectCrypto6CipherO", "seed_ecb"]
+- ["13PerfectCrypto6CipherO", "seed_ofb"]
+- !private ["s10CollectionP", "allocate"]
+- ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "baseAddress"]
+- !private ["s10CollectionP", "copyBytes"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "deallocate"]
+- !private ["s10CollectionP", "endIndex"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- ["s10CollectionP", "lock"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "sign"]
+- !private ["s10CollectionP", "startIndex"]
+- ["s10CollectionP", "subscript"]
+- ["s10CollectionP", "unlock"]
+- !private ["s10CollectionP", "utf8"]
+- !private ["s10ComparableP", "advanced"]
+- !private ["s10ComparableP", "allocate"]
+- !private ["s10ComparableP", "assumingMemoryBound"]
+- !private ["s10ComparableP", "deallocate"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "pointee"]
+- !private ["s10ComparableP", "utf8"]
+- !private ["13PerfectCrypto0B5ErrorV", "CryptoError"]
+- !private ["13PerfectCrypto0B5ErrorV", "ERR_error_string_n"]
+- !private ["13PerfectCrypto0B5ErrorV", "ERR_get_error"]
+- !private ["13PerfectCrypto0B5ErrorV", "Int"]
+- !private ["13PerfectCrypto0B5ErrorV", "Int8"]
+- ["13PerfectCrypto0B5ErrorV", "Never"]
+- !private ["13PerfectCrypto0B5ErrorV", "String"]
+- !private ["13PerfectCrypto0B5ErrorV", "UnsafeMutablePointer"]
+- !private ["13PerfectCrypto0B5ErrorV", "deinit"]
+- !private ["13PerfectCrypto0B5ErrorV", "init"]
+- ["13PerfectCrypto0B5ErrorV", "throwOpenSSLError"]
+- !private ["s28CustomDebugStringConvertibleP", "advanced"]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "assumingMemoryBound"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "copyBytes"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "deallocate"]
+- !private ["s28CustomDebugStringConvertibleP", "endIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- ["s28CustomDebugStringConvertibleP", "lock"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "sign"]
+- !private ["s28CustomDebugStringConvertibleP", "startIndex"]
+- ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "unlock"]
+- !private ["s28CustomDebugStringConvertibleP", "utf8"]
+- ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s29CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s29CustomPlaygroundQuickLookableP", "assumingMemoryBound"]
+- !private ["s29CustomPlaygroundQuickLookableP", "deallocate"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s29CustomPlaygroundQuickLookableP", "utf8"]
+- ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "allocate"]
+- ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "assumingMemoryBound"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "deallocate"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "lock"]
+- !private ["s17CustomReflectableP", "pointee"]
+- ["s17CustomReflectableP", "subscript"]
+- ["s17CustomReflectableP", "unlock"]
+- !private ["s17CustomReflectableP", "utf8"]
+- ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "bio"]
+- !private ["s23CustomStringConvertibleP", "chain"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "flush"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "lock"]
+- !private ["s23CustomStringConvertibleP", "memory"]
+- !private ["s23CustomStringConvertibleP", "read"]
+- !private ["s23CustomStringConvertibleP", "readPending"]
+- ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "unlock"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "write"]
+- ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- ["s9DecodableP", "init"]
+- ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "utf8"]
+- !private ["13PerfectCrypto6DigestO", "Array"]
+- ["13PerfectCrypto6DigestO", "BIO"]
+- !private ["13PerfectCrypto6DigestO", "BIO_C_SET_MD"]
+- !private ["13PerfectCrypto6DigestO", "BIO_ctrl"]
+- !private ["13PerfectCrypto6DigestO", "BIO_f_md"]
+- !private ["13PerfectCrypto6DigestO", "BIO_new"]
+- ["13PerfectCrypto6DigestO", "Bool"]
+- !private ["13PerfectCrypto6DigestO", "CRYPTO_memcmp"]
+- !private ["13PerfectCrypto6DigestO", "EVP_DigestSignFinal"]
+- !private ["13PerfectCrypto6DigestO", "EVP_DigestSignInit"]
+- !private ["13PerfectCrypto6DigestO", "EVP_DigestUpdate"]
+- !private ["13PerfectCrypto6DigestO", "EVP_DigestVerifyFinal"]
+- !private ["13PerfectCrypto6DigestO", "EVP_DigestVerifyInit"]
+- ["13PerfectCrypto6DigestO", "EVP_MD"]
+- !private ["13PerfectCrypto6DigestO", "EVP_MD_CTX_create"]
+- !private ["13PerfectCrypto6DigestO", "EVP_MD_CTX_destroy"]
+- !private ["13PerfectCrypto6DigestO", "EVP_dss"]
+- !private ["13PerfectCrypto6DigestO", "EVP_dss1"]
+- !private ["13PerfectCrypto6DigestO", "EVP_ecdsa"]
+- !private ["13PerfectCrypto6DigestO", "EVP_get_digestbyname"]
+- !private ["13PerfectCrypto6DigestO", "EVP_md4"]
+- !private ["13PerfectCrypto6DigestO", "EVP_md5"]
+- !private ["13PerfectCrypto6DigestO", "EVP_ripemd160"]
+- !private ["13PerfectCrypto6DigestO", "EVP_sha"]
+- !private ["13PerfectCrypto6DigestO", "EVP_sha1"]
+- !private ["13PerfectCrypto6DigestO", "EVP_sha224"]
+- !private ["13PerfectCrypto6DigestO", "EVP_sha256"]
+- !private ["13PerfectCrypto6DigestO", "EVP_sha384"]
+- !private ["13PerfectCrypto6DigestO", "EVP_sha512"]
+- !private ["13PerfectCrypto6DigestO", "EVP_whirlpool"]
+- !private ["13PerfectCrypto6DigestO", "HMACKey"]
+- ["13PerfectCrypto6DigestO", "Int"]
+- !private ["13PerfectCrypto6DigestO", "Int32"]
+- !private ["13PerfectCrypto6DigestO", "Int8"]
+- ["13PerfectCrypto6DigestO", "Key"]
+- !private ["13PerfectCrypto6DigestO", "PKCS5_PBKDF2_HMAC"]
+- ["13PerfectCrypto6DigestO", "String"]
+- ["13PerfectCrypto6DigestO", "UInt8"]
+- ["13PerfectCrypto6DigestO", "UnsafeMutableRawBufferPointer"]
+- !private ["13PerfectCrypto6DigestO", "UnsafeMutableRawPointer"]
+- ["13PerfectCrypto6DigestO", "UnsafePointer"]
+- ["13PerfectCrypto6DigestO", "UnsafeRawBufferPointer"]
+- ["13PerfectCrypto6DigestO", "bio"]
+- ["13PerfectCrypto6DigestO", "custom"]
+- ["13PerfectCrypto6DigestO", "deriveKey"]
+- ["13PerfectCrypto6DigestO", "dss"]
+- ["13PerfectCrypto6DigestO", "dss1"]
+- ["13PerfectCrypto6DigestO", "ecdsa"]
+- ["13PerfectCrypto6DigestO", "evp"]
+- ["13PerfectCrypto6DigestO", "length"]
+- ["13PerfectCrypto6DigestO", "md4"]
+- ["13PerfectCrypto6DigestO", "md5"]
+- ["13PerfectCrypto6DigestO", "ripemd160"]
+- ["13PerfectCrypto6DigestO", "sha"]
+- ["13PerfectCrypto6DigestO", "sha1"]
+- ["13PerfectCrypto6DigestO", "sha224"]
+- ["13PerfectCrypto6DigestO", "sha256"]
+- ["13PerfectCrypto6DigestO", "sha384"]
+- ["13PerfectCrypto6DigestO", "sha512"]
+- ["13PerfectCrypto6DigestO", "sign"]
+- ["13PerfectCrypto6DigestO", "verify"]
+- ["13PerfectCrypto6DigestO", "whirlpool"]
+- ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- ["s9EncodableP", "init"]
+- ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "utf8"]
+- !private ["13PerfectCrypto8EncodingO", "Base64Filter"]
+- !private ["13PerfectCrypto8EncodingO", "MemoryIO"]
+- !private ["13PerfectCrypto8EncodingO", "UInt8"]
+- ["13PerfectCrypto8EncodingO", "UnsafeMutableRawBufferPointer"]
+- ["13PerfectCrypto8EncodingO", "UnsafeRawBufferPointer"]
+- ["13PerfectCrypto8EncodingO", "base64"]
+- ["13PerfectCrypto8EncodingO", "base64url"]
+- !private ["13PerfectCrypto8EncodingO", "byteFromHexDigits"]
+- !private ["13PerfectCrypto8EncodingO", "dash"]
+- ["13PerfectCrypto8EncodingO", "decodeBytes"]
+- ["13PerfectCrypto8EncodingO", "encodeBytes"]
+- !private ["13PerfectCrypto8EncodingO", "equal"]
+- !private ["13PerfectCrypto8EncodingO", "fromBytesBase64"]
+- !private ["13PerfectCrypto8EncodingO", "fromBytesBase64URL"]
+- !private ["13PerfectCrypto8EncodingO", "fromBytesHex"]
+- !private ["13PerfectCrypto8EncodingO", "fslash"]
+- ["13PerfectCrypto8EncodingO", "hex"]
+- !private ["13PerfectCrypto8EncodingO", "plus"]
+- !private ["13PerfectCrypto8EncodingO", "stride"]
+- !private ["13PerfectCrypto8EncodingO", "toBytesBase64"]
+- !private ["13PerfectCrypto8EncodingO", "toBytesBase64URL"]
+- !private ["13PerfectCrypto8EncodingO", "toBytesHex"]
+- !private ["13PerfectCrypto8EncodingO", "uscore"]
+- !private ["s9EquatableP", "Base64Filter"]
+- !private ["s9EquatableP", "MemoryIO"]
+- !private ["s9EquatableP", "UInt8"]
+- !private ["s9EquatableP", "UnsafeMutableRawBufferPointer"]
+- !private ["s9EquatableP", "UnsafeRawBufferPointer"]
+- ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "advanced"]
+- !private ["s9EquatableP", "allocate"]
+- !private ["s9EquatableP", "assumingMemoryBound"]
+- ["s9EquatableP", "base64"]
+- ["s9EquatableP", "base64url"]
+- !private ["s9EquatableP", "dash"]
+- !private ["s9EquatableP", "deallocate"]
+- !private ["s9EquatableP", "equal"]
+- !private ["s9EquatableP", "fromBytesBase64"]
+- !private ["s9EquatableP", "fromBytesBase64URL"]
+- !private ["s9EquatableP", "fromBytesHex"]
+- !private ["s9EquatableP", "fslash"]
+- ["s9EquatableP", "hex"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "plus"]
+- !private ["s9EquatableP", "pointee"]
+- !private ["s9EquatableP", "stride"]
+- !private ["s9EquatableP", "toBytesBase64"]
+- !private ["s9EquatableP", "toBytesBase64URL"]
+- !private ["s9EquatableP", "toBytesHex"]
+- !private ["s9EquatableP", "uscore"]
+- !private ["s9EquatableP", "utf8"]
+- !private ["s5ErrorP", "CryptoError"]
+- !private ["s5ErrorP", "ERR_error_string_n"]
+- !private ["s5ErrorP", "ERR_get_error"]
+- !private ["s5ErrorP", "Int"]
+- !private ["s5ErrorP", "String"]
+- !private ["s5ErrorP", "UnsafeMutablePointer"]
+- !private ["s5ErrorP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "lock"]
+- ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s25ExpressibleByArrayLiteralP", "unlock"]
+- ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "utf8"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8"]
+- ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "Base64Filter"]
+- !private ["s8HashableP", "MemoryIO"]
+- !private ["s8HashableP", "UInt8"]
+- !private ["s8HashableP", "UnsafeMutableRawBufferPointer"]
+- !private ["s8HashableP", "UnsafeRawBufferPointer"]
+- ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "advanced"]
+- !private ["s8HashableP", "allocate"]
+- !private ["s8HashableP", "assumingMemoryBound"]
+- ["s8HashableP", "base64"]
+- ["s8HashableP", "base64url"]
+- !private ["s8HashableP", "dash"]
+- !private ["s8HashableP", "deallocate"]
+- !private ["s8HashableP", "equal"]
+- !private ["s8HashableP", "fromBytesBase64"]
+- !private ["s8HashableP", "fromBytesBase64URL"]
+- !private ["s8HashableP", "fromBytesHex"]
+- !private ["s8HashableP", "fslash"]
+- ["s8HashableP", "hex"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "plus"]
+- !private ["s8HashableP", "pointee"]
+- !private ["s8HashableP", "stride"]
+- !private ["s8HashableP", "toBytesBase64"]
+- !private ["s8HashableP", "toBytesBase64URL"]
+- !private ["s8HashableP", "toBytesHex"]
+- !private ["s8HashableP", "uscore"]
+- !private ["s8HashableP", "utf8"]
+- ["Si", "init"]
+- !private ["s5Int32V", "init"]
+- ["10PerfectLib15JSONConvertibleP", "_getBuiltinLogicValue"]
+- ["10PerfectLib15JSONConvertibleP", "append"]
+- !private ["10PerfectLib15JSONConvertibleP", "count"]
+- ["10PerfectLib15JSONConvertibleP", "init"]
+- ["10PerfectLib15JSONConvertibleP", "subscript"]
+- !private ["10PerfectLib15JSONConvertibleP", "utf8"]
+- !private ["13PerfectCrypto3KeyC", "pkey"]
+- ["13PerfectThread9ThreadingV4LockC", "init"]
+- ["13PerfectThread9ThreadingV4LockC", "lock"]
+- ["13PerfectThread9ThreadingV4LockC", "unlock"]
+- ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "utf8"]
+- !private ["13PerfectCrypto8MemoryIOC", "bio"]
+- !private ["13PerfectCrypto8MemoryIOC", "deinit"]
+- !private ["13PerfectCrypto8MemoryIOC", "flush"]
+- !private ["13PerfectCrypto8MemoryIOC", "init"]
+- !private ["13PerfectCrypto8MemoryIOC", "memory"]
+- !private ["13PerfectCrypto8MemoryIOC", "read"]
+- !private ["13PerfectCrypto8MemoryIOC", "readPending"]
+- !private ["13PerfectCrypto8MemoryIOC", "write"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "utf8"]
+- !private ["s17MutableCollectionP", "allocate"]
+- ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "baseAddress"]
+- !private ["s17MutableCollectionP", "copyBytes"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "deallocate"]
+- !private ["s17MutableCollectionP", "init"]
+- ["s17MutableCollectionP", "lock"]
+- ["s17MutableCollectionP", "subscript"]
+- ["s17MutableCollectionP", "unlock"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "utf8"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "utf8"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "utf8"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "utf8"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "utf8"]
+- !private ["So8NSObjectC", "utf8"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "utf8"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "utf8"]
+- !private ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "utf8"]
+- ["s7NumericP", "init"]
+- ["13PerfectCrypto5OctalP", "init"]
+- ["13PerfectCrypto15OpenSSLInternalV", "Bool"]
+- ["13PerfectCrypto15OpenSSLInternalV", "CRYPTO_LOCK"]
+- ["13PerfectCrypto15OpenSSLInternalV", "CRYPTO_num_locks"]
+- ["13PerfectCrypto15OpenSSLInternalV", "CRYPTO_set_id_callback"]
+- ["13PerfectCrypto15OpenSSLInternalV", "CRYPTO_set_locking_callback"]
+- ["13PerfectCrypto15OpenSSLInternalV", "ERR_load_BIO_strings"]
+- ["13PerfectCrypto15OpenSSLInternalV", "ERR_load_crypto_strings"]
+- ["13PerfectCrypto15OpenSSLInternalV", "Int"]
+- ["13PerfectCrypto15OpenSSLInternalV", "Int32"]
+- ["13PerfectCrypto15OpenSSLInternalV", "Int8"]
+- ["13PerfectCrypto15OpenSSLInternalV", "OPENSSL_add_all_algorithms_conf"]
+- ["13PerfectCrypto15OpenSSLInternalV", "Threading"]
+- ["13PerfectCrypto15OpenSSLInternalV", "UInt"]
+- ["13PerfectCrypto15OpenSSLInternalV", "UnsafePointer"]
+- ["13PerfectCrypto15OpenSSLInternalV", "init"]
+- ["13PerfectCrypto15OpenSSLInternalV", "isInitialized"]
+- ["13PerfectCrypto15OpenSSLInternalV", "openSSLLocks"]
+- ["13PerfectCrypto15OpenSSLInternalV", "pthread_self"]
+- !private ["s22RandomAccessCollectionP", "allocate"]
+- ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "baseAddress"]
+- !private ["s22RandomAccessCollectionP", "copyBytes"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "deallocate"]
+- !private ["s22RandomAccessCollectionP", "endIndex"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "isEmpty"]
+- ["s22RandomAccessCollectionP", "lock"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s22RandomAccessCollectionP", "sign"]
+- !private ["s22RandomAccessCollectionP", "startIndex"]
+- ["s22RandomAccessCollectionP", "subscript"]
+- ["s22RandomAccessCollectionP", "unlock"]
+- ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- ["s26RangeReplaceableCollectionP", "lock"]
+- ["s26RangeReplaceableCollectionP", "subscript"]
+- ["s26RangeReplaceableCollectionP", "unlock"]
+- !private ["s26RangeReplaceableCollectionP", "utf8"]
+- !private ["s8SequenceP", "allocate"]
+- ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "baseAddress"]
+- !private ["s8SequenceP", "copyBytes"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "deallocate"]
+- !private ["s8SequenceP", "endIndex"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- ["s8SequenceP", "lock"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "sign"]
+- !private ["s8SequenceP", "startIndex"]
+- ["s8SequenceP", "subscript"]
+- ["s8SequenceP", "unlock"]
+- !private ["s8SequenceP", "utf8"]
+- ["s13SignedIntegerP", "init"]
+- ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "advanced"]
+- !private ["s10StrideableP", "allocate"]
+- !private ["s10StrideableP", "assumingMemoryBound"]
+- !private ["s10StrideableP", "deallocate"]
+- ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "pointee"]
+- !private ["SS", "init"]
+- !private ["SS", "utf8"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "utf8"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "utf8"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "utf8"]
+- ["13PerfectThread9ThreadingV", "Lock"]
+- ["Su", "init"]
+- !private ["s6UInt32V", "init"]
+- ["s5UInt8V", "init"]
+- !private ["Sp", "advanced"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "deallocate"]
+- !private ["s29UnsafeMutableRawBufferPointerV", "allocate"]
+- !private ["s29UnsafeMutableRawBufferPointerV", "baseAddress"]
+- !private ["s29UnsafeMutableRawBufferPointerV", "copyBytes"]
+- !private ["s29UnsafeMutableRawBufferPointerV", "count"]
+- !private ["s29UnsafeMutableRawBufferPointerV", "deallocate"]
+- !private ["s29UnsafeMutableRawBufferPointerV", "init"]
+- !private ["s29UnsafeMutableRawBufferPointerV", "subscript"]
+- !private ["Sv", "assumingMemoryBound"]
+- !private ["Sv", "init"]
+- !private ["SP", "init"]
+- !private ["SP", "pointee"]
+- !private ["s22UnsafeRawBufferPointerV", "baseAddress"]
+- !private ["s22UnsafeRawBufferPointerV", "count"]
+- !private ["s22UnsafeRawBufferPointerV", "endIndex"]
+- !private ["s22UnsafeRawBufferPointerV", "init"]
+- !private ["s22UnsafeRawBufferPointerV", "isEmpty"]
+- !private ["s22UnsafeRawBufferPointerV", "map"]
+- !private ["s22UnsafeRawBufferPointerV", "sign"]
+- !private ["s22UnsafeRawBufferPointerV", "startIndex"]
+- !private ["s22UnsafeRawBufferPointerV", "subscript"]
+- !private ["SV", "assumingMemoryBound"]
+- ["s15UnsignedIntegerP", "init"]
+- ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "init"]
+- ["s14_ArrayProtocolP", "lock"]
+- ["s14_ArrayProtocolP", "subscript"]
+- ["s14_ArrayProtocolP", "unlock"]
+- !private ["s23_BidirectionalIndexableP", "allocate"]
+- ["s23_BidirectionalIndexableP", "append"]
+- !private ["s23_BidirectionalIndexableP", "baseAddress"]
+- !private ["s23_BidirectionalIndexableP", "copyBytes"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- !private ["s23_BidirectionalIndexableP", "deallocate"]
+- !private ["s23_BidirectionalIndexableP", "endIndex"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "isEmpty"]
+- ["s23_BidirectionalIndexableP", "lock"]
+- !private ["s23_BidirectionalIndexableP", "map"]
+- !private ["s23_BidirectionalIndexableP", "sign"]
+- !private ["s23_BidirectionalIndexableP", "startIndex"]
+- ["s23_BidirectionalIndexableP", "subscript"]
+- ["s23_BidirectionalIndexableP", "unlock"]
+- !private ["s23_BidirectionalIndexableP", "utf8"]
+- ["s18_BitwiseOperationsP", "init"]
+- ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- ["s24_DestructorSafeContainerP", "lock"]
+- ["s24_DestructorSafeContainerP", "subscript"]
+- ["s24_DestructorSafeContainerP", "unlock"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "utf8"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "utf8"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "utf8"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "utf8"]
+- !private ["s10_IndexableP", "allocate"]
+- ["s10_IndexableP", "append"]
+- !private ["s10_IndexableP", "baseAddress"]
+- !private ["s10_IndexableP", "copyBytes"]
+- !private ["s10_IndexableP", "count"]
+- !private ["s10_IndexableP", "deallocate"]
+- !private ["s10_IndexableP", "endIndex"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "isEmpty"]
+- ["s10_IndexableP", "lock"]
+- !private ["s10_IndexableP", "map"]
+- !private ["s10_IndexableP", "sign"]
+- !private ["s10_IndexableP", "startIndex"]
+- ["s10_IndexableP", "subscript"]
+- ["s10_IndexableP", "unlock"]
+- !private ["s10_IndexableP", "utf8"]
+- !private ["s14_IndexableBaseP", "allocate"]
+- ["s14_IndexableBaseP", "append"]
+- !private ["s14_IndexableBaseP", "baseAddress"]
+- !private ["s14_IndexableBaseP", "copyBytes"]
+- !private ["s14_IndexableBaseP", "count"]
+- !private ["s14_IndexableBaseP", "deallocate"]
+- !private ["s14_IndexableBaseP", "endIndex"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "isEmpty"]
+- ["s14_IndexableBaseP", "lock"]
+- !private ["s14_IndexableBaseP", "map"]
+- !private ["s14_IndexableBaseP", "sign"]
+- !private ["s14_IndexableBaseP", "startIndex"]
+- ["s14_IndexableBaseP", "subscript"]
+- ["s14_IndexableBaseP", "unlock"]
+- !private ["s14_IndexableBaseP", "utf8"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "utf8"]
+- !private ["s17_MutableIndexableP", "allocate"]
+- ["s17_MutableIndexableP", "append"]
+- !private ["s17_MutableIndexableP", "baseAddress"]
+- !private ["s17_MutableIndexableP", "copyBytes"]
+- !private ["s17_MutableIndexableP", "count"]
+- !private ["s17_MutableIndexableP", "deallocate"]
+- !private ["s17_MutableIndexableP", "init"]
+- ["s17_MutableIndexableP", "lock"]
+- ["s17_MutableIndexableP", "subscript"]
+- ["s17_MutableIndexableP", "unlock"]
+- ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "utf8"]
+- !private ["s8_PointerP", "advanced"]
+- !private ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "assumingMemoryBound"]
+- !private ["s8_PointerP", "deallocate"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s22_RandomAccessIndexableP", "allocate"]
+- ["s22_RandomAccessIndexableP", "append"]
+- !private ["s22_RandomAccessIndexableP", "baseAddress"]
+- !private ["s22_RandomAccessIndexableP", "copyBytes"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s22_RandomAccessIndexableP", "deallocate"]
+- !private ["s22_RandomAccessIndexableP", "endIndex"]
+- !private ["s22_RandomAccessIndexableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "isEmpty"]
+- ["s22_RandomAccessIndexableP", "lock"]
+- !private ["s22_RandomAccessIndexableP", "map"]
+- !private ["s22_RandomAccessIndexableP", "sign"]
+- !private ["s22_RandomAccessIndexableP", "startIndex"]
+- ["s22_RandomAccessIndexableP", "subscript"]
+- ["s22_RandomAccessIndexableP", "unlock"]
+- ["s26_RangeReplaceableIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "lock"]
+- ["s26_RangeReplaceableIndexableP", "subscript"]
+- ["s26_RangeReplaceableIndexableP", "unlock"]
+- !private ["s26_RangeReplaceableIndexableP", "utf8"]
+- !private ["s11_StrideableP", "advanced"]
+- !private ["s11_StrideableP", "allocate"]
+- !private ["s11_StrideableP", "assumingMemoryBound"]
+- !private ["s11_StrideableP", "deallocate"]
+- ["s11_StrideableP", "init"]
+- !private ["s11_StrideableP", "pointee"]
+- ["s14_StringElementP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "utf8"]
+- !private ["SC9env_md_stV", "md_size"]
+- !private ["SC13evp_cipher_stV", "block_size"]
+- !private ["SC13evp_cipher_stV", "iv_len"]
+- !private ["SC13evp_cipher_stV", "key_len"]
+depends-nominal:
+- "Sa"
+- "s10ArraySliceV"
+- !private "13PerfectCrypto12Base64FilterC"
+- "s23BidirectionalCollectionP"
+- "s13BinaryIntegerP"
+- "Sb"
+- !private "13PerfectCrypto6ByteIOP"
+- !private "13PerfectCrypto10ByteIOBaseC"
+- !private "13PerfectCrypto8ByteSinkP"
+- !private "13PerfectCrypto10ByteSourceP"
+- "s7CVarArgP"
+- "13PerfectCrypto6CipherO"
+- "s10CollectionP"
+- "s10ComparableP"
+- "13PerfectCrypto0B5ErrorV"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "13PerfectCrypto6DigestO"
+- "s9EncodableP"
+- "13PerfectCrypto8EncodingO"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "s8HashableP"
+- "Si"
+- !private "s5Int32V"
+- "10PerfectLib15JSONConvertibleP"
+- !private "13PerfectCrypto3KeyC"
+- "13PerfectThread9ThreadingV4LockC"
+- "s25LosslessStringConvertibleP"
+- !private "13PerfectCrypto8MemoryIOC"
+- "s10MirrorPathP"
+- "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "s7NumericP"
+- "13PerfectCrypto5OctalP"
+- "13PerfectCrypto15OpenSSLInternalV"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "s13SignedIntegerP"
+- "s13SignedNumericP"
+- "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "13PerfectThread9ThreadingV"
+- "Su"
+- !private "s6UInt32V"
+- "s5UInt8V"
+- !private "Sp"
+- !private "s29UnsafeMutableRawBufferPointerV"
+- !private "Sv"
+- !private "SP"
+- !private "s22UnsafeRawBufferPointerV"
+- !private "SV"
+- "s15UnsignedIntegerP"
+- "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- "s18_BitwiseOperationsP"
+- "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- "s11_StrideableP"
+- "s14_StringElementP"
+- !private "s16_SwiftStringViewP"
+- !private "SC9env_md_stV"
+- !private "SC13evp_cipher_stV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectLib.swiftmodule"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/x86_64-apple-macosx10.10/debug/PerfectThread.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode9.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../asn1.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../tls1.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dtls1.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl2.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem2.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../e_os2.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl23.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl3.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pkcs7.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../sha.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dsa.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdsa.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rsa.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../obj_mac.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../hmac.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ec.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rand.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pqueue.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslconf.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dh.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdh.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../lhash.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../stack.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../safestack.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../kssl.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/openssl.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bn.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bio.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../crypto.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../comp.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../srtp.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../evp.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ossl_typ.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../buffer.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../err.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../symhacks.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../cms.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../objects.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslv.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509_vfy.h"
+- "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap"
+interface-hash: "bca999bc160ba53a19db400ab439df3c"

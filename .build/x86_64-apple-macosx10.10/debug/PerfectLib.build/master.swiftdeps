@@ -1,0 +1,14 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "abba56dc45aebea2955163af68913c23"
+build_time: [1517577721, 72122000]
+inputs:
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Bytes.swift": [1517557463, 0]
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Dir.swift": [1517557463, 0]
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/File.swift": [1517557463, 0]
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/JSONConvertible.swift": [1517557463, 0]
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Log.swift": [1517557463, 0]
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/PerfectError.swift": [1517557463, 0]
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/PerfectServer.swift": [1517557463, 0]
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/SwiftCompatibility.swift": [1517557463, 0]
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/SysProcess.swift": [1517557463, 0]
+  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Utilities.swift": [1517557463, 0]
