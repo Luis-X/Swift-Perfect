@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "13ce0df26b27e94616f8e6c80c8dff26"
-build_time: [1517577725, 382147000]
+build_time: [1517580158, 177081000]
 inputs:
   "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/Algorithms.swift": [1517557462, 0]
   "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/ByteIO.swift": [1517557462, 0]

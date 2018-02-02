@@ -2,20 +2,20 @@ client:
   name: swift-build
 tools: {}
 targets:
-  "main": ["<PerfectHTTP.module>","<PerfectCrypto.module>","<PerfectMySQL.module>","<PerfectThread.module>","<PerfectDemoProject.module>","<PerfectMustache.module>","<PerfectCHTTPParser.module>","<PerfectHTTPServer.module>","<COpenSSL.module>","<PerfectLib.module>","<PerfectCZlib.module>","<PerfectNet.module>","<PerfectDemoProject.exe>"]
-  "test": ["<PerfectHTTP.module>","<PerfectCrypto.module>","<PerfectMySQL.module>","<PerfectThread.module>","<PerfectDemoProject.module>","<PerfectMustache.module>","<PerfectCHTTPParser.module>","<PerfectHTTPServer.module>","<COpenSSL.module>","<PerfectLib.module>","<PerfectCZlib.module>","<PerfectNet.module>","<PerfectDemoProject.exe>"]
-  "PerfectHTTP.module": ["<PerfectHTTP.module>"]
-  "PerfectCrypto.module": ["<PerfectCrypto.module>"]
+  "main": ["<PerfectMySQL.module>","<COpenSSL.module>","<PerfectDemoProject.module>","<PerfectMustache.module>","<PerfectThread.module>","<PerfectHTTPServer.module>","<PerfectLib.module>","<PerfectCZlib.module>","<PerfectHTTP.module>","<PerfectCrypto.module>","<PerfectNet.module>","<PerfectCHTTPParser.module>","<PerfectDemoProject.exe>"]
+  "test": ["<PerfectMySQL.module>","<COpenSSL.module>","<PerfectDemoProject.module>","<PerfectMustache.module>","<PerfectThread.module>","<PerfectHTTPServer.module>","<PerfectLib.module>","<PerfectCZlib.module>","<PerfectHTTP.module>","<PerfectCrypto.module>","<PerfectNet.module>","<PerfectCHTTPParser.module>","<PerfectDemoProject.exe>"]
   "PerfectMySQL.module": ["<PerfectMySQL.module>"]
-  "PerfectThread.module": ["<PerfectThread.module>"]
+  "COpenSSL.module": ["<COpenSSL.module>"]
   "PerfectDemoProject.module": ["<PerfectDemoProject.module>"]
   "PerfectMustache.module": ["<PerfectMustache.module>"]
-  "PerfectCHTTPParser.module": ["<PerfectCHTTPParser.module>"]
+  "PerfectThread.module": ["<PerfectThread.module>"]
   "PerfectHTTPServer.module": ["<PerfectHTTPServer.module>"]
-  "COpenSSL.module": ["<COpenSSL.module>"]
   "PerfectLib.module": ["<PerfectLib.module>"]
   "PerfectCZlib.module": ["<PerfectCZlib.module>"]
+  "PerfectHTTP.module": ["<PerfectHTTP.module>"]
+  "PerfectCrypto.module": ["<PerfectCrypto.module>"]
   "PerfectNet.module": ["<PerfectNet.module>"]
+  "PerfectCHTTPParser.module": ["<PerfectCHTTPParser.module>"]
   "PerfectDemoProject.exe": ["<PerfectDemoProject.exe>"]
 default: "main"
 commands: 
