@@ -1,5 +1,0 @@
-version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "8d112aa1ef78511900e47fbc29e72f4d"
-build_time: [1517580153, 289428000]
-inputs:
-  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-MySQL.git-4976130768219902098/Sources/PerfectMySQL.swift": [1517557462, 0]

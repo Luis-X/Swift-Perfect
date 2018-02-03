@@ -1,6 +1,0 @@
-version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "748f0bfb7fd817aae1c4b23896d31bc4"
-build_time: [1517580176, 216927000]
-inputs:
-  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-Mustache.git-4271886153857801499/Sources/HTTPResponseExtension.swift": [1517557460, 0]
-  "/Users/luisx/Desktop/GitHub/PerfectDemoProject/.build/checkouts/Perfect-Mustache.git-4271886153857801499/Sources/Mustache.swift": [1517557460, 0]
